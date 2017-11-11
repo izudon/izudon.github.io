@@ -1,7 +1,5 @@
-[core]
-	pager = less -cm
 [user]
 	name = Masakazu IZUI
-	email = i**@g**.c**
+	email = i**@g**.**
 [color]
 	ui = true
