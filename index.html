@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Leaflet Sample</title>
+		<link rel="stylesheet" href="./leaflet/leaflet.css" />
+		<script type="text/javascript" src="./leaflet/leaflet.js"></script>
+		<style type="text/css">
+			#map { height: 500px; }
+		</style>
+	</head>
+	<body>
+		<h1>Leaflet Sample</h1>
+		<div id="map"></map>
+			
+		<script type="text/javascript">
+			var map = L.map('map').setView([51, 0], 0);
+			L.tileLayer('https://a1.izudon.net/tiles/osmlogo/{z}/{y}/{x}.png', {
+				attribution: 'attr',
+				maxZoom: 4,
+			}).addTo(map);
+		</script>
+	</body>
+</html>
