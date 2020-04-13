@@ -1,24 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Leaflet Sample</title>
-		<link rel="stylesheet" href="./leaflet/leaflet.css" />
-		<script type="text/javascript" src="./leaflet/leaflet.js"></script>
-		<style type="text/css">
-			#map { height: 500px; }
-		</style>
-	</head>
-	<body>
-		<h1>Leaflet Sample</h1>
-		<div id="map"></map>
-			
-		<script type="text/javascript">
-			var map = L.map('map').setView([51, 0], 0);
-			L.tileLayer('https://izudon.github.io/tiles/osmlogo/{z}/{y}/{x}.png', {
-				attribution: 'attr',
-				maxZoom: 4,
-			}).addTo(map);
-		</script>
-	</body>
+<html lang="ja">
+  <head>
+    <meta http-equiv="content-type" charset="utf-8">
+    <title>Leaflet Sample</title>
+  </head>
+  <body>
+    <h1>Leaflet Sample</h1>
+    <ul>
+      <li><a href="01_basic.html">01_basic.html</a></li>
+      <li><a href="02_imageOverlay.html">02_imageOverlay.html</a></li>
+      <li><a href="03_paths.html">03_paths.html</a></li>
+      <ul>
+        <li>コンストラクタを持つのは
+	<ul>
+		<li>Polyline（連続直線）</li>
+		<li>Polygon（多角形）</li>
+		<li>Rectangle（矩形）</li>
+		<li>Circle（円）</li>
+		<li>CircleMarker（円マーカ）</li>
+	</ul>
+        </li>
+	<li>
+	  これらはすべて Path のサブクラスなので<br />
+	  color, weight, opacity など path のオプションがすべて使用可。<br />
+	  波線の指定まで細かくできる（SVG仕様）。
+	</li>
+	<li>
+	  fillColor のデフォルトが color と同じで、<br />
+	  fillOpacity のデフォルトが 0.2 なので、<br />
+	  面積を持つ図形すべてええ感じに表示される。
+	</li>
+	<li>
+	  Circle の半径指定は「メートル」。<br />
+	  他方 CircleMarker の半径指定は「ピクセル」なので、<br />
+	  ズームした時の挙動が異なってくる。
+	</li>
+      </ul>
+      <li><a href="04_geoJSON.html">04_geoJSON.html</a></li>
+    </ul>
+  </body>
 </html>
