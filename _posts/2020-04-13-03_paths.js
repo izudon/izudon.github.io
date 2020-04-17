@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Leaflet Sample</title>
-    <link rel="stylesheet" href="../../lib/leaflet/leaflet.css" />
-    <script type="text/javascript" src="../../lib/leaflet/leaflet.js"></script>
-    <style type="text/css">
-      #map { height: 500px; }
-    </style>
-  </head>
-  <body>
-    <h1>Leaflet Sample</h1>
-    <div id="map"></map>
-      
-    <script type="text/javascript">
+---
+layout: leaflet
+---
       var map = L.map('map').setView([51, 0], 0);
 
-      // Tiles
-//    L.tileLayer('https://izudon.github.io/tiles/osmlogo/{z}/{y}/{x}.png', {
       L.tileLayer('/tiles/osmlogo/{z}/{y}/{x}.png', {
         attribution: 'attr',
         maxZoom: 4,
@@ -54,6 +39,3 @@
 	        L.popup().setContent(this.getLatLng().toString())
 	      ).openPopup();
       });
-    </script>
-  </body>
-</html>
