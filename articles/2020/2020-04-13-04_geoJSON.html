@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Leaflet Sample 読込時間かかります！</title>
-    <link rel="stylesheet" href="./lib/leaflet/leaflet.css" />
-    <script type="text/javascript" src="./lib/leaflet/leaflet.js"></script>
-    <script type="text/javascript" src="./lib/d3/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="../../lib/leaflet/leaflet.css" />
+    <script type="text/javascript" src="../../lib/leaflet/leaflet.js"></script>
+    <script type="text/javascript" src="../../lib/d3/d3.v3.min.js"></script>
     <style type="text/css">
       #map { height: 500px; }
     </style>
@@ -26,7 +26,7 @@
       }).addTo(map);
 
       // geoJSON overlay
-      d3.json("./data/maps/worldmap.geojson", function(json){
+      d3.json("../../data/maps/worldmap.geojson", function(json){
         console.log(json);
 	L.geoJSON( json, {
 	  style: function(feature){
