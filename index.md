@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: top-page
 ---
 # Good Morning!
 
