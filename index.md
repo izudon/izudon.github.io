@@ -33,4 +33,4 @@ layout: top-page
      * git のチートシート
      * .bashrc Wikiにもってく
      * jekyll serve --host=0.0.0.0 #--Wikiにメモっとく。
-     
+     * rake の初歩を学ぶ。やろうとしていたことはやはり Makefile ではややハードルが高い作業だった。
