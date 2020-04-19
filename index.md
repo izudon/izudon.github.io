@@ -11,7 +11,7 @@ layout: top-page
 * 淀川を越えると（大阪中心部に入ると）ウーバーイーツがやたら走ってた。  
   もう 100m あたり１機くらいの感覚ですれ違うわ。
 * 感謝３つ
-  * [鎌倉シャツさんマスク](https://shop.shirt.co.jp/shop/pages/mask.aspx?200417_mask_mail&bdad=MzI2MF82&bdactcd=MzI2MF8xOTE0NzM-)なんて要らなくなる「[10秒で作れるハンカチマスク](https://www.youtube.com/watch?v=PGug3ZZPp_k)」という動画を公開してくれてありがとう。もう注文しちゃったけど。確かに布マスクの人街中で増えてました。
+  * 北海道テレビさん、[鎌倉シャツさんマスク](https://shop.shirt.co.jp/shop/pages/mask.aspx?200417_mask_mail&bdad=MzI2MF82&bdactcd=MzI2MF8xOTE0NzM-)なんて要らなくなる「[10秒で作れるハンカチマスク](https://www.youtube.com/watch?v=PGug3ZZPp_k)」という動画を公開してくれてありがとう。もう注文しちゃったけど。確かに布マスクの人街中で増えてました。
   * 「過保護のカホコ #5」感動してちょっと泣きそうになった。
   * ダイエーさん無料 Wifi ありがとうございます。
 
