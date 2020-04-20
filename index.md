@@ -3,7 +3,7 @@ layout: top-page
 ---
 # 今朝の感謝３つ。
 
-1. あ
+1. スーパー玉出さん、蒸しパン４９円で販売してくれてありがとう。
 1. [Radio DJ's カリー](https://www.youtube.com/watch?v=3Um_xMmE8OA) 楽しい動画をありがとう。
 1. FM802 DJ の内田絢子さんありがとう。
 
