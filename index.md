@@ -2,48 +2,41 @@
 layout: top-page
 ---
 
-* [Wiki](https://github.com/izudon/izudon.github.io/wiki)
-  への技術まとめがいつの間にか
-  [とほほのＷＷＷ入門](http://www.tohoho-web.com/)
-  に似てきてるような気がしてしまう。
-* [Focal Fossa (20.04 LTS) Final Release Status Tracking - Release - Ubuntu Community Hub](https://discourse.ubuntu.com/t/focal-fossa-20-04-lts-final-release-status-tracking/15366/1)
-  * Ubuntu 20.04 LTS 明日にもリリース予定だという。
-  * OS をアップグレードする練習をしたい。
-  * クリーンインストールの Ubuntu も勉強のために使うんだけど。
-  * さくらさんに持っている VPS も CentOS やめて Ubuntu にしたい。
-  
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Edvard_Munch_-_Morning_%281884%29.jpg/1094px-Edvard_Munch_-_Morning_%281884%29.jpg)](https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_Morning_(1884).jpg)
+[![すべき](https://img.youtube.com/vi/Wx5uBcVkF5I/0.jpg)](https://www.youtube.com/watch?v=Wx5uBcVkF5I)
 
-[Wikimedia Commons](https://commons.wikimedia.org/) より。
+[ごく普通の外国人・がっちゃん - YouTube](https://www.youtube.com/channel/UCYg9i0n1Vc4705rsYKJio9A) より。
 
-* 「叫び」しか描いてなかったわけではなかったらしい。
+* よーわかる。
+* 今後、必要とされる英語教育ってこういうものだと思う。
+* [東大生が感動した「勉強になるYouTubeチャンネル」５選](https://president.jp/articles/-/34397) で紹介されていた。
+
+個人的にこういうのどうかなーって思っていたのだが、
+2013年に中小企業診断士を受けたときにも、
+最難関とされる経済学の学習が Youtube のおかげではかどったという
+受講生がかなりいたのだった。
+
+* [石川 経済 中小企業診断士試験 一発合格道場](https://rmc-oden.com/blog/?s=%E7%9F%B3%E5%B7%9D+%E7%B5%8C%E6%B8%88)
+
+[![石川秀樹 ガイダンス](https://img.youtube.com/vi/ZNfJXo50Y04/0.jpg)](https://www.youtube.com/watch?v=ZNfJXo50Y04)
+
+[フリーラーニング » 石川秀樹先生](http://free-learning.org/?page_id=48)
 
 
-## 女性好みのサイトとは
+そういう時代ですよね。
 
-* [ネットで女性が「買いたい気分」になる魔法の演出法](https://diamond.jp/articles/-/163748)
-  * 女性にとって現実は「仮の姿」、お城にいることこそが「真の姿」。
-  * 女性が買い物とは「本来の自分が目覚める」こと。「ないものを手に入れる」
-    のではなく「本来の自分が目覚める」「取り戻せる」
-    アイテムに魅力を感じる。
-  * パッと見の印象に敏感。色使い、フォント、すっきりしたレイアウト。
-    魔法が解けると一気に購買意欲が薄らぐ。
-* -> 気をつけます。
-
+[【発音スペシャル】　発音ひとつで歌まで上手くなる。（彼らの歌がスゴイ理由） - YouTube](https://www.youtube.com/watch?v=dh1U_VvfC1Q)
 
 # 今朝の感謝３つ。
 
-1. [Ubuntu](https://ubuntu.com/) の皆さん、遅れずリリースしてくれてありがとう。
-2. [エドヴァルド・ムンク - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%89%E3%83%BB%E3%83%A0%E3%83%B3%E3%82%AF) さん、絵描いてくれてありがとう。
-3. 谷本理恵子 さん、女性の購買感覚について有益な示唆をありがとう。
+1. がっちゃんさん貴重なノウハウ公開してくださってありがとう。
+2. 石川秀樹先生動画公開してくださってありがとう。
+3. [YouTubeのサムネイルをMarkdownで埋め込むための文字列変換というページ](https://www.tecking.org/youtube-markdown/#) ありがとう。
 
 
-# さて、今日は・・・
+# 今日の予定
 
-* 『ゼロから作る Deep Learning』[まとめながら](https://github.com/izudon/izudon.github.io/wiki/ゼロから作る-Deep-Learning)勉強している。  
-  ４章でつまづき。今日はそこからのリカバー。金曜日までに終わるか！？
-* 吉野家のテイクアウト割引最終日につき夕飯は吉野家の牛皿テイクアウトにする？  
-  昨日なぜか実父が来訪してケンチキ置いてったのでおかずはあまり気味・・・。
+* 『ゼロから作る Deep Learning』[まとめながら](https://github.com/izudon/izudon.github.io/wiki/ゼロから作る-Deep-Learning)勉強続き。
+  * いよいよ金曜までに終わる気がしなくなってきた！
 
 # memo
 
