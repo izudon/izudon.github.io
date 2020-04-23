@@ -2,45 +2,27 @@
 layout: top-page
 ---
 
-[![すべき](https://img.youtube.com/vi/Wx5uBcVkF5I/0.jpg)](https://www.youtube.com/watch?v=Wx5uBcVkF5I)
+コロナ禍が終わった後に借金を返せるアテはあるのか。
 
-[ごく普通の外国人・がっちゃん - YouTube](https://www.youtube.com/channel/UCYg9i0n1Vc4705rsYKJio9A) より。
-
-* よーわかる。
-* 今後、必要とされる英語教育ってこういうものだと思う。
-* [東大生が感動した「勉強になるYouTubeチャンネル」５選](https://president.jp/articles/-/34397) で紹介されていた。
-
-個人的にこういうのどうかなーって思っていたのだが、
-2013年に中小企業診断士を受けたときにも、
-最難関とされる経済学の学習が Youtube のおかげではかどったという
-受講生がかなりいたのだった。
-
-* [石川 経済 中小企業診断士試験 一発合格道場](https://rmc-oden.com/blog/?s=%E7%9F%B3%E5%B7%9D+%E7%B5%8C%E6%B8%88)
-
-[![石川秀樹 ガイダンス](https://img.youtube.com/vi/ZNfJXo50Y04/0.jpg)](https://www.youtube.com/watch?v=ZNfJXo50Y04)
-
-[フリーラーニング » 石川秀樹先生](http://free-learning.org/?page_id=48)
+[![１冊ですべて身に付くHTML&CSSとWebデザイン入門講座](https://images-na.ssl-images-amazon.com/images/P/B07PS1ZJN6.09.LZZZZZZZ)](https://amazon.jp/dp/B07PS1ZJN6)
 
 
-そういう時代ですよね。
-
-[【発音スペシャル】　発音ひとつで歌まで上手くなる。（彼らの歌がスゴイ理由） - YouTube](https://www.youtube.com/watch?v=dh1U_VvfC1Q)
 
 # 今朝の感謝３つ。
 
-1. がっちゃんさん貴重なノウハウ公開してくださってありがとう。
-2. 石川秀樹先生動画公開してくださってありがとう。
-3. [YouTubeのサムネイルをMarkdownで埋め込むための文字列変換というページ](https://www.tecking.org/youtube-markdown/#) ありがとう。
+1. 友人よ、久々の長電話に付き合ってくれてありがとう。
+2. 後輩よ、ツールの使い方を教えてくれてありがとう。
+3. 楽天モバイルさん、魅力的な料金プランをイノベーティブに提供してくれてありがとう。
 
 
 # 今日の予定
 
 * 『ゼロから作る Deep Learning』[まとめながら](https://github.com/izudon/izudon.github.io/wiki/ゼロから作る-Deep-Learning)勉強続き。
-  * いよいよ金曜までに終わる気がしなくなってきた！
+  * 今日中に終わるか？終わるわけがない！
+  * 理解せずに積み越した項目をせめて別書きしておこう！
+
 
 # memo
-
-言及したいけど時間が・・・。
 
 * 過保護のカホコ
 * 同期のサクラ
