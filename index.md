@@ -2,97 +2,59 @@
 layout: top-page
 ---
 
-* 1995 阪神・淡路大震災
-* 2000 就職氷河期
-* 2009 リーマンショック
-* 2020 コロナ禍
+[![ポートランド](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Portland_and_Mt._Hood_from_Pittock_Mansion.jpg/1024px-Portland_and_Mt._Hood_from_Pittock_Mansion.jpg)](https://commons.wikimedia.org/wiki/File:Portland_and_Mt._Hood_from_Pittock_Mansion.jpg)
 
-こういうヨコ波をかいくぐりながら縦糸を通していくことが人生というものなのかもしれない。
-
-[Wikimedia Commons](https://commons.wikimedia.org/) より。
-
-[![門司港の写真](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Mojiko_Station_R04.JPG/1024px-Mojiko_Station_R04.JPG)](https://commons.wikimedia.org/wiki/File:Mojiko_Station_R04.JPG)
+[Wikimedia Commons](https://commons.wikimedia.org/) より まちづくりで名高いアメリカ・[ポートランド（オレゴン州）](https://ja.wikipedia.org/wiki/ポートランド_(オレゴン州)) + [フッド山](https://ja.wikipedia.org/wiki/フッド山)
 
 
-# 年齢によるディスアドバンテージについて考えてしまった
 
-* プログラマ35歳定年説を否定していた。
-   * 敬愛するあるエンジニアの発言を信じていた。
-   * 個別言語に依存しない「考え方」：
-      * 「オブジェクト指向」とか
-      * 「デザインパターン」とか
-      * 「ディクショナリ変数」とか
-   * こういう「概念」をきっちりと把握していることが、
-      * 言語の流行に巻き込まれて死に絶えてしまわない
-      * 寿命の長い（息の長い）エンジニアになるために
-      * 必要なことだと考え
-      * 取り組んできたつもりだったんだが。
-   * 今ではプログラミング自体が不要とみなされるように。
-      * ノン・プログラミング
-      * RPA（ロボット）
-      * AI（ディープ・ラーニング）
-      * アルゴリズムよりデータ
-      * システムより業務優先
-   * 時代は残酷
-   * 時代は予測できない
-* 設計とか見えない部分に対する美的感覚とかが  
-  アドバンテージにならなかった。
-   * 既に設計・構築されたシステムの保守・改修が、  
-     業界での仕事のメインなのだった。
-   * 自分に自信があった部分だったが・・・  
-     生かされることはなくて。
-   * 薄々気づきながらも頑張っていたんだよ。  
-     ３年経たずにやめたりしたら  
-     根性なしの烙印が押されるので。
-* 若い連中の方が飲み込みが早いかもしれない
-   * 希望に満ち溢れている。
-   * 体力もある。
-   * 変に世間擦れしていない。
-   * 必要な情報は横同士仲が良ければすぐに手に入る。
-   * ツールも使いやすくなってる。
-   * 標準化も進んでいる。
-   * 特にウェブとブラウザのまわり。
-   * ＩＴ人口が増えてネットに上がっている情報も質量ともに充実してきていて  
-     検索エンジンがかなり精度良くそれらを掘り当てるようになってきている。
-   * 努力すれば手に入るだろう。
-   * 知識だってスキルだって。
-* 自分に存在価値の存在する部分はどこだろうか。
-   * 勉強というもの本来の変わらない価値を信じているところだろうか。
-   * 人生には大波がつきものであると身をもって体験しているところだろうか。
-   * 人間関係の重要性を失敗を通じて学んだところだろうか。
+# 昨日
 
+1. SakuraVPS -> Ubuntu 20.04 LTS 化完了。
+1. [ゼロから作る Deep Learning](https://github.com/izudon/izudon.github.io/wiki/ゼロから作る-Deep-Learning) まとめも完了。
+1. [PostgreSQL](https://github.com/izudon/izudon.github.io/wiki/PostgreSQL),
+   [Rails](https://github.com/izudon/izudon.github.io/wiki/Rails) まとめ完了。
 
-# 昨日の成果を褒めてみよう
+* 土曜の夜ほぼ眠れなかった。やはり運動していないといけないのかもしれない。
+* 人間というものは本っ当に、一歩、一歩しか進歩しない。
+* 俺のやっていることはしょうもなくないか、大丈夫か。
 
-ふと思い立つ。
+# 今日
 
-* 何一つ難しいことはやっていない。
-  置き去りになっていた勉強をやり遂げただけ。
-* しかも20年前と違ってツール類は格段に使いやすくなり、
-  標準化も進んでいる。
-* やったことは全然すごくない。自己嫌悪に陥りそうなほど。  
-  だけど。
+1. Node.js やる。
+   * 書籍『[Node クックブック](https://amazon.jp/dp/4873116066)』
+1. ~~20年前のウェブデザインの知識から差分を補う。~~
+   * ~~書籍『[1冊ですべて身につくHTML ＆ CSSとWebデザイン入門講座](https://amazon.jp/dp/B07PS1ZJN6)』~~
+   * ~~書籍『[CSS設計完全ガイド　～詳細解説＋実践的モジュール集](https://amazon.jp/dp/B0856YMH7L)』~~
+1. ~~機械学習の続きを学ぶ~~
+   * ~~書籍『[scikit-learnとTensorFlowによる実践機械学習](https://amazon.jp/dp/4873118344)』~~
+   * ~~書籍『[仕事ではじめる機械学習](https://amazon.jp/dp/4873118255)』~~
 
-1. [Ubuntu 20.04 LTS](https://github.com/izudon/izudon.github.io/wiki/Ubuntu-20.04-LTS) インストール＆旧環境からファイル引継完了。
-  * [Upgrade](https://github.com/izudon/izudon.github.io/wiki/do-release-upgrade) を経験。
-1. SakuraVPS 概ねバックアップ完了。
-  * あとは Ubuntu 20.04 LTS 入れるだけ。
-1. 『ゼロから作る Deep Learning』[まとめながら](https://github.com/izudon/izudon.github.io/wiki/ゼロから作る-Deep-Learning) 読了。
-  * あとはまとめるだけ。
-1. [Redmine](https://github.com/izudon/izudon.github.io/wiki/Redmine) のに必要な知識を項目化できた。
-  * あとは各個別の知識をまとめるだけ。
+# 明日（のリスク）
 
-
-# 今日の予定
-
-* 上記の「あとは」の部分をやる。
+* どんなに勉強頑張ってみても所詮は公知 -> 価値がない・差別化にならない恐れ。
+* どこを目指しているのかが分からなくなってしまう恐れ。
+* 勉強にこんなにガッツリ時間を取られて仕事がまわっていかない恐れ。
+  * 仕事しながら差分知識を補っておられる諸兄は本当に学べているのだろうか。
 
 
 # 今朝の感謝３つ。
 
-1. 今更『東京タラレバ娘』。吉高由里子、いい演技してくれてありがとう。
-2. 太陽照ってくれてありがとう。
-3. ゴミ収集きてくれてありがとう。
+コンテンツ消費をしていない日はこのコーナーを書きにくい。
+
+1. 高嶋ちさ子さんのバイオリン動画見て「上手いな〜」とか思いましたありがとう。  
+   てか相手プロだよ／YouTube だからって素人評価の感覚で評価するなと。
+2. 広瀬香美さん髭男歌ってる動画公開ありがとう。
+3. 広瀬香美さんレッスン動画公開ありがとう。
+
+俺どんだけミーハーなんとか思われそう・・・。
+
+[![高嶋ちさ子 「ザワつく音楽会2020」テレワークで「愛は勝つ」を弾いてみた](https://img.youtube.com/vi/Ezk2izNy7R4/0.jpg)](https://www.youtube.com/watch?v=Ezk2izNy7R4)
+
+[![【広瀬香美】Official髭男dismさんのPretender歌ってみた【※グッバイ勝負】](https://img.youtube.com/vi/I6cKlS3ipYE/0.jpg)](https://www.youtube.com/watch?v=I6cKlS3ipYE)
+
+[![音程トレーニング 後編](https://img.youtube.com/vi/DpKG5M8-9MQ/0.jpg)](https://www.youtube.com/watch?v=DpKG5M8-9MQ)
+
 
 
 # memo
