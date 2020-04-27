@@ -32,7 +32,7 @@ layout: top-page
 # 今朝の感謝３つ。
 
 1. emacs markdown-mode 作ってくれた人ありがとう。すごく使いやすいです。
-2. emacs js2-mode 作ってくれた人ありがとう。すごく使いやすいでdす。
+2. emacs js2-mode 作ってくれた人ありがとう。すごく使いやすいでです。
 3. emacs html-mode 作った上にデフォルトで有効にしてくれていた人ありがとう。すごく使いやすいです。
 
 # memo
