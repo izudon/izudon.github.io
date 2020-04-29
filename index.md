@@ -2,6 +2,8 @@
 layout: top-page
 ---
 
+[![尾道の夕暮れ](https://upload.wikimedia.org/wikipedia/commons/4/47/Landscape_view_of_Onomichi_city_and_Onomichi_Channel_at_night._Hanami_%28Sakura_blooming_season%29._Hiroshima_Prefecture._Japan.jpg)](https://commons.wikimedia.org/wiki/File:Landscape_view_of_Onomichi_city_and_Onomichi_Channel_at_night._Hanami_(Sakura_blooming_season)._Hiroshima_Prefecture._Japan.jpg)
+
 [Wikimedia Commons](https://commons.wikimedia.org/)
 より
 尾道の夕暮れ
