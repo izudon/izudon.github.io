@@ -2,20 +2,18 @@
 layout: top-page
 ---
 
-[![尾道の夕暮れ](https://upload.wikimedia.org/wikipedia/commons/4/47/Landscape_view_of_Onomichi_city_and_Onomichi_Channel_at_night._Hanami_%28Sakura_blooming_season%29._Hiroshima_Prefecture._Japan.jpg)](https://commons.wikimedia.org/wiki/File:Landscape_view_of_Onomichi_city_and_Onomichi_Channel_at_night._Hanami_(Sakura_blooming_season)._Hiroshima_Prefecture._Japan.jpg)
-
 [Wikimedia Commons](https://commons.wikimedia.org/)
 より
 尾道の夕暮れ
 
-* 休日の今日はこのページのデザイン（CSS）をいったんリセットしてみようかと思う。
-* 結果としてろくでもないものになる可能性高いけどご笑納あれ。
+* 休日の機能はこのページのデザイン（CSS）をいったんリセットして  
+  いろいろいじくりまわしたわけであるが微妙に未完成なのでアップは明日。
+* どうもスミマセン。
 
 # 昨日
 
-1. 書籍『[Node クックブック](https://amazon.jp/dp/4873116066)』
-   行き詰まる。
-1. 機械学習の Jupyter notebook の方に行く。この環考えた人はすごい。
+1. レスポンシブデザインとかいろいろ学ぶ。
+1. ラスタタイル作成で悪戦苦闘。
 
 
 # 今日
@@ -33,11 +31,7 @@ layout: top-page
 
 # 今朝の感謝３つ。
 
-1. 東京タラレバ娘 #4-5 観た。  
-   #4 で一回話終わってる。この後引っ張るものは、
-   KEY の昔のエピソードしかなくないか。
-   ドラマってこういう展開もあるのか・・・。
-   と考えさせてくれたことに感謝。
-2. 吉野家のテイクアウト「ネット予約」を試す。  
-   店舗従業員さんの負荷が減ることに株主として感謝。
-3. 誕生日のメッセージをくれたすべての方々に感謝。
+1. なんとなくおふくろに電話してみた。元気そうである。生きててくれてありがとう。
+2. 長電話しても追加料金一切なしの楽天モバイルと三木谷さんに感謝。
+3. Leaflet という素晴らしいライブラリを無償公開してくださっている  
+   [Vladimir Agafonkin](https://agafonkin.com) さんありがとう。
