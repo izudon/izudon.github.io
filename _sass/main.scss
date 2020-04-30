@@ -71,13 +71,89 @@ main{
 	#map{
 	    height: 250px;
 	    background-color: white;
-	    margin: 0;
+	    margin: 0 0 20px;
 	    padding: 0;
 	}
 	
 	/* 一般要素 */
-	ul, ol{
-	    margin-left: 2rem;
+	h1, h2, h3, h4, h5, h6,
+	p, blockquote, pre, hr,
+	dl, ol, ul {
+	    margin: 0.5rem 0;
+	}
+
+	/* 水平線 */
+	hr{
+	    border-top: 2px dashed #ccc;
+	}
+	
+	/* 見出し */
+	h1{
+	    font-size: 1.8rem;
+	    border-bottom: 2px #ddd solid;
+	    padding: 0.1em 0;
+	    margin: 0.4em 0;
+	}
+	h2{
+	    font-size: 1.5rem;
+	    border-bottom: 1px #ccc solid;
+	    padding: 0.1em 0;
+	    margin: 0.4em 0;
+	}
+	h3{
+	    font-size: 1.3rem;
+	    margin: 0.7rem 0;
+	}
+	h4{
+	    font-size: 1.2rem;
+	}
+	h5{
+	    font-size: 1.1rem;
+	}
+	h6{
+	    font-size: 1.0rem;
+	}
+	p{
+	    margin-left: 0.25em;
+	}
+
+	/* リスト要素 */
+	ul, ol, dd{
+	    margin-left: 2.25rem;
+	    ul, ol, dl{
+		margin: 0.075rem 0 0.075rem 1.75rem;
+	    }
+	}
+
+	/* コード・整形済テキスト */
+	pre, code{
+	    background-color: #eee;
+	}
+	pre{
+	    font-size: 0.9rem;
+	    line-height:1.45;
+	    padding: 0.75em 1.2em;
+	    margin: 0.8rem 0.1rem;
+	    overflow: auto;
+	}
+
+	/* テーブル */
+	table{
+	    border-collapse: collapse;
+	    th, td{
+		padding: 0.3em 0.5em;
+		border: 1px solid #ccc;
+	    }
+	}
+	tr:nth-child(odd){
+	    th, td {
+		background-color: #eee;   /* 奇数行の背景色 */
+	    }
+	}
+	tr:nth-child(even){
+	    th, td {
+		background-color: none;   /* 偶数行の背景色 */
+	    }
 	}
 
 	/* 日付 */
