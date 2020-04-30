@@ -1,0 +1,36 @@
+
+osmlogo:
+  path: /tiles/osmlogo/{z}/{y}/{x}.png
+  minZoom: 0
+  maxZoom: 4
+  setZoom: 0
+  setLng: 0
+  setLat: 0
+
+portland:
+  path: /tiles/portland/{z}/{y}/{x}.png
+  minZoom: 2
+  maxZoom: 5
+  setZoom: 3
+  setLng: 0
+  setLat: 0
+
+gears:
+  path: /tiles/gears/{z}/{y}/{x}.png
+  minZoom: 0
+  maxZoom: 5
+  setZoom: 3
+  setLng: 0
+  setLat: 0
+  href: "https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0518.jpg"
+  caption: Wikimedia Commons Clock Machinery
+
+junkudo:
+  path: /tiles/junkudo/{z}/{y}/{x}.png
+  minZoom: 0
+  maxZoom: 5
+  setZoom: 3
+  setLng: 0
+  setLat: 0
+  href: "https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0518.jpg"
+  caption: Wikimedia Commons Clock Machinery

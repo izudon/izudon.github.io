@@ -1,36 +1,109 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
 
-<div class="home">
+    <!-- 文字コード -->
+    <meta charset="utf-8">
 
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <!-- タイトル -->
+    <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
+    
+    <!-- 概要説明 -->
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <p style="font-family: 'Lobster', cursive; font-size: 40px;">
-      {{ site.time | date_to_rfc822 }}
-    </p>
+    <!-- ファビコン -->
+    <link rel="icon" type="text/png" href="/favicon.ico">
+    
+    <!-- リセット CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    
+    <!-- Leaflet, D3 -->
+    <link rel="stylesheet" href="../../lib/leaflet/leaflet.css" />
+    <script type="text/javascript" src="/lib/leaflet/leaflet.js"></script>
+    <script type="text/javascript" src="/lib/d3/d3.v3.min.js"></script>
 
-    <div class="post-content" itemprop="articleBody">
-      {{ content }}
-    </div>
+    <!-- Webフォント (Google Fonts) -->
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&display=swap" rel="stylesheet">
 
-  </article>
+    <!-- このサイトのCSS -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
 
-  
-  <h1 class="page-heading">Posts</h1>
+  </head>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <!--========== BODY はじまりはじまり〜 ==========-->
+  <body>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <!--=== ヘッダ部 ===-->
+    <header class="page-header wrapper">
 
-</div>
+      <!-- タイトル -->
+      <h1>
+	<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+	<small>毎朝更新中</small>
+      </h1>
+      
+      <!-- ナビゲーションメニュー -->
+      <nav>
+	<ul class="main-nav">
+	  <li><a href="https://www.hatena.ne.jp/izudon/">Hatena</a></li>
+	  <li><a href="./profile/">Profile</a></li>
+	  <li><a href="https://github.com/izudon/myhome/wiki">Wiki</a></li>
+	</ul>
+      </nav>
+
+    </header>
+    
+<!--
+-->    
+
+    <!--=== メイン ===-->
+    <main class="wrapper">
+      
+      <!--=== 記事 ===-->
+      <article>
+
+	<!-- 日付 -->
+	<div class="date">
+	  {{ site.time | date_to_rfc822 }}
+	</div>
+
+	<!-- Leaflet contents -->
+	{% include map.html id="gears" %}
+
+	<!-- 記事本体 -->
+	{{ content }}
+
+      </article>
+
+    
+      <!--=== サイドバー ===-->
+      <aside>
+	<h2 class="page-heading">Posts</h2>
+
+	<ul class="post-list">
+	  {% for post in site.posts %}
+	  <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	    
+            <h3>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+	  </li>
+	  {% endfor %}
+	</ul>
+
+	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+      </aside>
+
+    </main>
+    
+    <!--=== フッタ部 ===-->
+    {% include footer.html %}
+
+
+  </body>
+
+</html>

@@ -1,0 +1,13 @@
+
+{% assign map = site.data.maps[include.id] %}
+
+<div id="map"></div>
+<script type="text/javascript">
+  var map = L.map( 'map' ).setView([{{ map.setLng }}, {{ map.setLat }}], {{ map.setZoom }});
+  L.tileLayer('{{ map.path }}', {
+      attribution: '<a href="{{ map.href | uri_escape }}">{{ map.caption | xml_escape }}</a>',
+      minZoom: {{ map.minZoom }},
+      maxZoom: {{ map.maxZoom }},
+      errorTileUrl: '/tiles/_/none.png'
+  }).addTo(map);
+</script>

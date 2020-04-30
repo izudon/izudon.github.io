@@ -1,0 +1,127 @@
+/****** 幅指定用ラッパ ******/
+.wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/****** 全体指定 ******/
+body{
+    font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont,
+		 "Apple Color Emoji","Segoe UI Emoji",
+		 "Yu Gothic Medium", "游ゴシック Medium", "ヒラギノ角ゴ",
+		 "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/*===== ヘッダ =====*/
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #ccc solid;
+
+    /* タイトル部 */
+    h1 {
+	width: 75%;
+	font-size: 24px;
+	font-weight: 100;
+	a{
+	    text-decoration: none;
+	    color: #666;
+	}
+	small{
+	    font-size: 16px;
+	    color: maroon;
+	}
+    }
+
+    /* ナビゲーション */
+    ul{
+	display: flex;
+	list-style: none;
+	li{
+	    text-align: center;
+	    width: 80px;
+	}
+	a{
+	    display: block;
+	    text-decoration: none;
+	    color: #333;
+	}
+	a:hover{
+	    background-color: yellow;
+	    color: #9ff;
+	}
+    }
+}
+
+/*===== メイン =====*/
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    /*----- 記事部 -----*/
+    article{
+	width: 74%;
+
+	/* #map */
+	#map{
+	    height: 250px;
+	    background-color: white;
+	    margin: 0;
+	    padding: 0;
+	}
+	
+	/* 一般要素 */
+	ul, ol{
+	    margin-left: 2rem;
+	}
+
+	/* 日付 */
+	.date{
+	    font-family: 'Lobster', cursive;
+	    font-size: 40px;
+	    margin: 0 5px 0;
+	}
+    }
+
+    /*----- サイド -----*/
+    aside{
+	width: 22%;
+	ul{
+	    list-style: none;
+	}
+    }
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+/*===== フッタ =====*/
+footer{
+    background-color: #eee;
+    margin: 30px 0 0;
+    padding: 10px 0 30px;
+    .wrapper{
+	display: flex;
+	justify-content: space-between;
+	h2{
+	    width: 30%;
+	}
+	div{
+	    width: 60%;
+	    div{
+		width: 40%;
+	    }
+	}
+    }
+    .social-media-list .icon svg{
+	width:1em;
+    }
+}
