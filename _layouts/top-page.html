@@ -70,7 +70,9 @@
 	</div>
 
 	<!-- Leaflet contents -->
-	{% include map.html id="gears" %}
+	{% if page.map %}
+	{% include map.html %}
+	{% endif %}
 
 	<!-- 記事本体 -->
 	{{ content }}

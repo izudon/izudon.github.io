@@ -1,3 +1,22 @@
+gears:
+  path: /tiles/gears/{z}/{y}/{x}.png
+  minZoom: 0
+  maxZoom: 5
+  setZoom: 3
+  setLng: 0
+  setLat: 0
+  href: "https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0518.jpg"
+  caption: "Wikimedia Commons Clock Machinery"
+
+factory:
+  path: /tiles/factory/{z}/{y}/{x}.png
+  minZoom: 0
+  maxZoom: 4
+  setZoom: 2
+  setLng: 0
+  setLat: 0
+  href: "https://commons.wikimedia.org/wiki/File:Machine_Shop_Men_GPN-2000-000364.jpg"
+  caption: "Wikimedia Commons Machine Shop Men"
 
 osmlogo:
   path: /tiles/osmlogo/{z}/{y}/{x}.png
@@ -15,22 +34,3 @@ portland:
   setLng: 0
   setLat: 0
 
-gears:
-  path: /tiles/gears/{z}/{y}/{x}.png
-  minZoom: 0
-  maxZoom: 5
-  setZoom: 3
-  setLng: 0
-  setLat: 0
-  href: "https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0518.jpg"
-  caption: Wikimedia Commons Clock Machinery
-
-junkudo:
-  path: /tiles/junkudo/{z}/{y}/{x}.png
-  minZoom: 0
-  maxZoom: 5
-  setZoom: 3
-  setLng: 0
-  setLat: 0
-  href: "https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0518.jpg"
-  caption: Wikimedia Commons Clock Machinery
