@@ -10,7 +10,7 @@ layout: leaflet
       }).addTo(map);
 
       // geoJSON overlay
-      d3.json("../../data/maps/worldmap.geojson", function(json){
+      d3.json("/assets/for-leaflet-lesson/worldmap.geojson", function(json){
         console.log(json);
 	L.geoJSON( json, {
 	  style: function(feature){
