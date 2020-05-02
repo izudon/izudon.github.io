@@ -1,7 +1,7 @@
 ---
 layout: leaflet
 ---
-      var map = L.map('map').setView([51, 0], 0);
+      var map = L.map('map').setView([0, 0], 0);
       var popup = L.popup().setLatLng([0,0]).setContent("Loading...").openOn(map);
 
       L.tileLayer('/tiles/osmlogo/{z}/{y}/{x}.png', {
