@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Leaflet Sample 読込時間かかります！</title>
-    <link rel="stylesheet" href="../../lib/leaflet/leaflet.css" />
-    <script type="text/javascript" src="../../lib/leaflet/leaflet.js"></script>
-    <script type="text/javascript" src="../../lib/d3/d3.v3.min.js"></script>
-    <style type="text/css">
-      #map { height: 500px; }
-    </style>
-  </head>
-  <body>
-    <div id="map"></map>
-      
-    <script type="text/javascript">
-      {{ content }}
-    </script>
+---
+layout: top-page
+---
+<div id="map" style="height:400px;"></map>
 
-  </body>
-</html>
+<script type="text/javascript">
+  {{ content }}
+</script>
