@@ -18,19 +18,51 @@ factory:
   href: "https://commons.wikimedia.org/wiki/File:Machine_Shop_Men_GPN-2000-000364.jpg"
   caption: "Wikimedia Commons Machine Shop Men"
 
+portland:
+  path: /tiles/portland/{z}/{y}/{x}.png
+  minZoom: 0
+  maxZoom: 5
+  setZoom: 3
+  setLng: -3
+  setLat: 0
+  href: "https://en.wikipedia.org/wiki/Portland,_Oregon"
+  caption: "Portland, Oregon - Wikipedia"
+
+portland_02:
+  path: /tiles/portland_02/{z}/{y}/{x}.png
+  minZoom: 0
+  maxZoom: 5
+  setZoom: 2
+  setLng: 0
+  setLat: 0
+  href: "https://commons.wikimedia.org/wiki/Portland,_Oregon"
+  caption: "Portland, Oregon - Wikimedia Commons"
+
+portland_03:
+  path: /tiles/portland_03/{z}/{y}/{x}.png
+  minZoom: 0
+  maxZoom: 5
+  setZoom: 3
+  setLng: 0
+  setLat: 0
+  href: "https://commons.wikimedia.org/wiki/Portland,_Oregon"
+  caption: "Portland, Oregon - Wikimedia Commons"
+
+junkudo:
+  path: /tiles/junkudo/{z}/{y}/{x}.jpg
+  minZoom: 0
+  maxZoom: 5
+  setZoom: 3
+  setLng: 0
+  setLat: 0
+  href: "https://commons.wikimedia.org/wiki/Portland,_Oregon"
+  caption: "Portland, Oregon - Wikimedia Commons"
+
 osmlogo:
   path: /tiles/osmlogo/{z}/{y}/{x}.png
   minZoom: 0
   maxZoom: 4
   setZoom: 0
-  setLng: 0
-  setLat: 0
-
-portland:
-  path: /tiles/portland/{z}/{y}/{x}.png
-  minZoom: 2
-  maxZoom: 5
-  setZoom: 3
   setLng: 0
   setLat: 0
 
