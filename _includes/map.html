@@ -1,9 +1,12 @@
 
-{% assign map = site.data.maps[page.map] %}
+{% assign map = site.data.maps[page.map.id] %}
 
 <div id="map"></div>
 <script type="text/javascript">
-  var map = L.map( 'map' ).setView([{{ map.setLat }}, {{ map.setLng }}], {{ map.setZoom }});
+  var map = L.map( 'map' ).setView([
+      {% if page.map.setLat %}{{ page.map.setLat }}{% else %}0{% endif %},
+      {% if page.map.setLng %}{{ page.map.setLng }}{% else %}0{% endif %}
+  ],  {% if page.map.setZoom %}{{ page.map.setZoom }}{% else %}{{ map.maxZoom }}{% endif %});
   L.tileLayer('{{ map.path }}', {
       attribution: '<a href="{{ map.href | uri_escape }}">{{ map.caption | xml_escape }}</a>',
       minZoom: {{ map.minZoom }},

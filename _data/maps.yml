@@ -2,9 +2,6 @@ gears:
   path: /tiles/gears/{z}/{y}/{x}.png
   minZoom: 0
   maxZoom: 5
-  setZoom: 3
-  setLat: 0
-  setLng: 0
   href: "https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0518.jpg"
   caption: "Wikimedia Commons Clock Machinery"
 
@@ -12,9 +9,6 @@ factory:
   path: /tiles/factory/{z}/{y}/{x}.png
   minZoom: 0
   maxZoom: 4
-  setZoom: 2
-  setLat: 0
-  setLng: 0
   href: "https://commons.wikimedia.org/wiki/File:Machine_Shop_Men_GPN-2000-000364.jpg"
   caption: "Wikimedia Commons Machine Shop Men"
 
@@ -22,9 +16,6 @@ portland:
   path: /tiles/portland/{z}/{y}/{x}.png
   minZoom: 0
   maxZoom: 5
-  setZoom: 3
-  setLat: -3
-  setLng:  0
   href: "https://en.wikipedia.org/wiki/Portland,_Oregon"
   caption: "Portland, Oregon - Wikipedia"
 
@@ -32,9 +23,6 @@ portland_02:
   path: /tiles/portland_02/{z}/{y}/{x}.png
   minZoom: 0
   maxZoom: 5
-  setZoom: 2
-  setLat: 0
-  setLng: 0
   href: "https://commons.wikimedia.org/wiki/Portland,_Oregon"
   caption: "Portland, Oregon - Wikimedia Commons"
 
@@ -42,9 +30,6 @@ portland_03:
   path: /tiles/portland_03/{z}/{y}/{x}.png
   minZoom: 0
   maxZoom: 5
-  setZoom: 3
-  setLat: 0
-  setLng: 0
   href: "https://commons.wikimedia.org/wiki/Portland,_Oregon"
   caption: "Portland, Oregon - Wikimedia Commons"
 
@@ -52,17 +37,17 @@ junkudo:
   path: /tiles/junkudo/{z}/{y}/{x}.jpg
   minZoom: 0
   maxZoom: 5
-  setZoom: 3
-  setLat: 0
-  setLng: 0
   href: "https://commons.wikimedia.org/wiki/Portland,_Oregon"
   caption: "Portland, Oregon - Wikimedia Commons"
+
+daishokumap:
+  path: /tiles/daishokumap/{z}/{y}/{x}.jpg
+  minZoom: 0
+  maxZoom: 6
+  href: "https://commons.wikimedia.org/wiki/File:DaiNippon_Shokugyobetsu_Meisaizu_Tatebayashi_Map.jpg?fbclid=IwAR1WDSxY_WjptsAAIXOr6OTB4hdk3eG9r0LJSr1jWF4Xq-S8e0GJte7Z7-s"
+  caption: "大日本職業別明細図 - WIkimedia Commons"
 
 osmlogo:
   path: /tiles/osmlogo/{z}/{y}/{x}.png
   minZoom: 0
   maxZoom: 4
-  setZoom: 0
-  setLat: 0
-  setLng: 0
-

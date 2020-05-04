@@ -113,9 +113,17 @@ main{
 	h6{
 	    font-size: 1.0rem;
 	}
+
+	/* 段落 */
 	p{
 	    margin-left: 0.25em;
 	    text-indent: 1em;
+	}
+
+	/* 引用 */
+	blockquote{
+	    border-left: 5px solid #ccc;
+	    padding-left: 12px;
 	}
 
 	/* リスト要素 */
