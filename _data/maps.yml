@@ -3,8 +3,8 @@ gears:
   minZoom: 0
   maxZoom: 5
   setZoom: 3
-  setLng: 0
   setLat: 0
+  setLng: 0
   href: "https://commons.wikimedia.org/wiki/File:Vienna_-_Vintage_Franz_Zajizek_Astronomical_Clock_machinery_-_0518.jpg"
   caption: "Wikimedia Commons Clock Machinery"
 
@@ -13,8 +13,8 @@ factory:
   minZoom: 0
   maxZoom: 4
   setZoom: 2
-  setLng: 0
   setLat: 0
+  setLng: 0
   href: "https://commons.wikimedia.org/wiki/File:Machine_Shop_Men_GPN-2000-000364.jpg"
   caption: "Wikimedia Commons Machine Shop Men"
 
@@ -23,8 +23,8 @@ portland:
   minZoom: 0
   maxZoom: 5
   setZoom: 3
-  setLng: -3
-  setLat: 0
+  setLat: -3
+  setLng:  0
   href: "https://en.wikipedia.org/wiki/Portland,_Oregon"
   caption: "Portland, Oregon - Wikipedia"
 
@@ -33,8 +33,8 @@ portland_02:
   minZoom: 0
   maxZoom: 5
   setZoom: 2
-  setLng: 0
   setLat: 0
+  setLng: 0
   href: "https://commons.wikimedia.org/wiki/Portland,_Oregon"
   caption: "Portland, Oregon - Wikimedia Commons"
 
@@ -43,8 +43,8 @@ portland_03:
   minZoom: 0
   maxZoom: 5
   setZoom: 3
-  setLng: 0
   setLat: 0
+  setLng: 0
   href: "https://commons.wikimedia.org/wiki/Portland,_Oregon"
   caption: "Portland, Oregon - Wikimedia Commons"
 
@@ -53,8 +53,8 @@ junkudo:
   minZoom: 0
   maxZoom: 5
   setZoom: 3
-  setLng: 0
   setLat: 0
+  setLng: 0
   href: "https://commons.wikimedia.org/wiki/Portland,_Oregon"
   caption: "Portland, Oregon - Wikimedia Commons"
 
@@ -63,6 +63,6 @@ osmlogo:
   minZoom: 0
   maxZoom: 4
   setZoom: 0
-  setLng: 0
   setLat: 0
+  setLng: 0
 
