@@ -24,10 +24,3 @@ markdown: kramdown
 ### Original Settings
 ###
 timezone: Asia/Tokyo
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-            permalink: /articles/:year/:year-:month-:day-:title.html
-
