@@ -65,8 +65,9 @@
       <article>
 
 	<!-- 日付 -->
-	<div class="date">
-	  {{ site.time | date_to_rfc822 }}
+	<div class="date" style="text-align: center">
+	  {{ site.time | date: "%b %d" }}
+	  <small><small>{{ site.time | date: "%a. %Y" }}</small></small>
 	</div>
 
 	<!-- Leaflet contents -->
