@@ -34,30 +34,6 @@
   <!--========== BODY はじまりはじまり〜 ==========-->
   <body>
 
-
-    <!--=== ヘッダ部 ===-->
-    <header class="page-header wrapper">
-
-      <!-- タイトル -->
-      <h1>
-	<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-	<small>毎朝更新中</small>
-      </h1>
-      
-      <!-- ナビゲーションメニュー -->
-      <nav>
-	<ul class="main-nav">
-	  <li><a href="https://www.hatena.ne.jp/izudon/">Hatena</a></li>
-	  <li><a href="./profile/">Profile</a></li>
-	  <li><a href="https://github.com/izudon/myhome/wiki">Wiki</a></li>
-	</ul>
-      </nav>
-
-    </header>
-    
-<!--
--->    
-
     <!--=== メイン ===-->
     <main class="wrapper">
       
@@ -65,10 +41,14 @@
       <article>
 
 	<!-- 日付 -->
-	<div class="date" style="text-align: center">
-	  {{ site.time | date: "%b %d" }}
-	  <small><small>{{ site.time | date: "%a. %Y" }}</small></small>
-	</div>
+	<header>
+	  <div class="title title-left">イズイノ<br>イマ</div>
+	  <div class="date">
+	    {{ site.time | date: "%b %d" }}
+	    <small>{{ site.time | date: "%a. %Y" }}</small>
+	  </div>
+	  <div class="title title-right">イイタイ<br>コト</div>
+	</header>
 
 	<!-- Leaflet contents -->
 	{% if page.map %}
@@ -83,19 +63,41 @@
     
       <!--=== サイドバー ===-->
       <aside>
-	<h2 class="page-heading">Posts</h2>
 
-	<ul class="post-list">
-	  {% for post in site.posts %}
-	  <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-	    
-            <h3>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h3>
-	  </li>
-	  {% endfor %}
-	</ul>
+	<!-- Wiki Updates -->
+	<div class="wiki-updates">
+<!--
+	  <h2><a href="https://github.com/izudon/izudon.github.io/wiki/">Wiki Updates</a></h2>
+-->
+	  <ul>
+	    {% for wiki in site.data.wiki %}
+	    <li>
+	      <a href="https://github.com/izudon/izudon.github.io/wiki/{{ wiki.name | url_encode }}">
+		<div class="date">{{ wiki.date }}</div>
+		<h3>{{ wiki.name }}</h3>
+	      </a>
+	    </li>
+	    {% endfor %}
+	  </ul>
+	</div>
+	
+	<!-- Site Updates -->
+	<hr style="margin: 5px 0">
+	<div>
+<!--
+	  <h2 class="page-heading">Posts</h2>
+-->
+	  <ul class="post-list">
+	    {% for post in site.posts %}
+	    <li>
+	      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+		<div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
+		<h3>{{ post.title }}</h3>
+	      </a>
+	    </li>
+	    {% endfor %}
+	  </ul>
+	</div>
 
 	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

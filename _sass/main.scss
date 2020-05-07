@@ -1,3 +1,9 @@
+/****** Webフォント ******/
+@font-face {
+  font-family: 'gagagaga';
+  src: url('/assets/fonts/GAGAGAGA-FREE.woff') format('woff');
+}
+
 /****** 幅指定用ラッパ ******/
 .wrapper{
     max-width: 900px;
@@ -17,45 +23,6 @@ body{
 }
 
 /*===== ヘッダ =====*/
-header {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px #ccc solid;
-
-    /* タイトル部 */
-    h1 {
-	width: 75%;
-	font-size: 24px;
-	font-weight: 100;
-	a{
-	    text-decoration: none;
-	    color: #666;
-	}
-	small{
-	    font-size: 16px;
-	    color: maroon;
-	}
-    }
-
-    /* ナビゲーション */
-    ul{
-	display: flex;
-	list-style: none;
-	li{
-	    text-align: center;
-	    width: 80px;
-	}
-	a{
-	    display: block;
-	    text-decoration: none;
-	    color: #333;
-	}
-	a:hover{
-	    background-color: yellow;
-	    color: #9ff;
-	}
-    }
-}
 
 /*===== メイン =====*/
 main{
@@ -66,6 +33,41 @@ main{
     /*----- 記事部 -----*/
     article{
 	width: 74%;
+
+	/*--- ヘッダ部 ---*/
+	header {
+	    display: flex;
+	    justify-content: space-between;
+
+	    .title{
+		font:{
+		    family: 'gagagaga';
+		    size: 20px;
+		}
+		color: #ccc;
+		padding:{
+		    top: 9px;
+		}
+		line-height: 1.1;
+	    }
+	    .title-left{
+		letter-spacing: 1px;
+		text-align: left;
+		background: linear-gradient(90deg, #eee, #fff);
+		padding-left: 10px;
+	    }
+	    .title-right{
+		letter-spacing: 1px;
+		text-align: right;
+		background: linear-gradient(90deg, #fff, #eee );
+		padding-right: 15px;
+	    }
+	    .date{
+		font-family: 'Lobster', cursive;
+		font-size: 40px;
+		margin: 0 5px 0;
+	    }
+	}
 
 	/* #map */
 	#map{
@@ -171,20 +173,45 @@ main{
 		background-color: none;   /* 偶数行の背景色 */
 	    }
 	}
-
-	/* 日付 */
-	.date{
-	    font-family: 'Lobster', cursive;
-	    font-size: 40px;
-	    margin: 0 5px 0;
-	}
     }
 
     /*----- サイド -----*/
     aside{
 	width: 22%;
+	padding-top: 10px;
+	line-height: 1.4;
+	a{
+	    text-decoration: none;
+	    display: block;
+	    border-right: 0.3em solid white;
+	    padding: 0.1em 0.3em 0.1em 0.5em;
+	}
+	a:hover{
+	    border-right: 0.3em solid #aae;
+	    background-color: #eee;
+	}
+	h2{
+	    font-size: 1rem;
+	}
+	h3{
+	    font-weight: normal;
+	}
 	ul{
 	    list-style: none;
+	    li{
+		a{
+		    padding-top:0.2rem;
+		    padding-bottom:0.2rem;
+		    .date{
+			font-size: 0.8rem;
+			color: #666;
+		    }
+		    h3{
+			font-size: 1rem;
+			color: #00c;
+		    }
+		}
+	    }
 	}
     }
 }
