@@ -1,81 +1,141 @@
-/****** Webフォント ******/
+/***********************************************************************
+  0. 全体設定
+***********************************************************************/
+
+/* Webフォント */
 @font-face {
   font-family: 'gagagaga';
   src: url('/assets/fonts/GAGAGAGA-FREE.woff') format('woff');
 }
 
-/****** 幅指定用ラッパ ******/
-.wrapper{
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 4%;
-}
-
-/****** 全体指定 ******/
+/* 全体設定 */
 body{
-    font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont,
-		 "Apple Color Emoji","Segoe UI Emoji",
-		 "Yu Gothic Medium", "游ゴシック Medium", "ヒラギノ角ゴ",
-		 "Segoe UI", Helvetica, Arial, sans-serif;
-    line-height: 1.65;
-    font-size: 16px;
-    font-weight: 300;
+    font:{
+	family: 'Noto Sans JP', -apple-system;
+	size: 16px;
+	weight: 300;
+    }
+    img{
+	max-width: 100%;
+    }
 }
 
-/*===== ヘッダ =====*/
+/***********************************************************************
+  1. レイアウト
+***********************************************************************/
 
-/*===== メイン =====*/
-main{
+.container{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
 
-    /*----- 記事部 -----*/
+    header{
+	width: 32px;
+	background-color: black;
+	text-align: center;
+	position: sticky;
+	color: white;
+	font-family: 'gagagaga';
+    }
+
+    main{
+	margin: 0 auto;
+	min-width: 600px;
+	max-width: 600px;
+	width: 600px;
+    }
+
+    aside{
+	padding-top: 10px;
+	min-width: 180px;
+	max-width: 180px;
+	width: 180px;
+	background-color: black;
+	color: white;
+    }	
+}
+footer{
+    background-color: #eee;
+    padding: 10px 15% 30px;
+}
+/***********************************************************************
+  2. ブロック
+***********************************************************************/
+
+main{
+    /*----- date -----*/
+    #date{
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	text-align: center;
+	margin: 10px 0;
+    }
+
+    /*----- title -----*/
+    #title{
+	margin: 15px 0;
+	text-align: center;
+	font-size: 36px;
+    }
+
+    /*----- map -----*/
+    #map{
+	height: 250px;
+	margin: 10px 0;
+    }
+
+    /*----- 記事 -----*/
     article{
-	width: 74%;
+	margin: 15px 0 ;
+    }
+}
 
-	/*--- ヘッダ部 ---*/
-	header {
-	    display: flex;
-	    justify-content: space-between;
+aside{
+    font-size: 14px;
 
-	    .title{
-		font:{
-		    family: 'gagagaga';
-		    size: 20px;
-		}
-		color: #ccc;
-		padding:{
-		    top: 9px;
-		}
-		line-height: 1.1;
-	    }
-	    .title-left{
-		letter-spacing: 1px;
-		text-align: left;
-		background: linear-gradient(90deg, #eee, #fff);
-		padding-left: 10px;
-	    }
-	    .title-right{
-		letter-spacing: 1px;
-		text-align: right;
-		background: linear-gradient(90deg, #fff, #eee );
-		padding-right: 15px;
-	    }
-	    .date{
-		font-family: 'Lobster', cursive;
-		font-size: 40px;
-		margin: 0 5px 0;
-	    }
+    h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p{
+	margin: 0;
+	padding: 0;
+    }
+
+    a.button{
+	display: block;
+	border-width: 0 /*5px*/;
+	padding: 3px 5px 3px 10px;
+    }
+}
+
+footer{
+    .social-media-list .icon svg{
+	width:1em;
+    }
+}
+
+
+/***********************************************************************
+  3. Molecules
+***********************************************************************/
+
+/*----- ヘッダ -----*/
+header{
+
+    a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+    }
+}
+
+/*----- メイン -----*/
+main{
+
+    #date{
+	small{
+	    font-size: 0.66em;
 	}
+    }
 
-	/* #map */
-	#map{
-	    height: 250px;
-	    background-color: white;
-	    margin: 0 0 20px;
-	    padding: 0;
-	}
+    article{
+	line-height: 1.7;
 	
 	/* 一般要素 */
 	h1, h2, h3, h4, h5, h6,
@@ -88,23 +148,23 @@ main{
 	hr{
 	    border-top: 2px dashed #ccc;
 	}
-	
+    
 	/* 見出し */
 	h1{
-	    font-size: 1.8rem;
+	    font-size: 1.75rem;
 	    border-bottom: 2px #ddd solid;
 	    padding: 0.1em 0;
-	    margin: 0.5em 0 0.4em;
+	    margin: 0.4em 0 0.3em;
 	}
 	h2{
 	    font-size: 1.5rem;
 	    border-bottom: 1px #ccc solid;
 	    padding: 0.1em 0;
-	    margin: 0.5em 0 0.4em;
+	    margin: 0.4em 0 0.3em;
 	}
 	h3{
 	    font-size: 1.3rem;
-	    margin: 0.7rem 0;
+	    margin: 0.3em 0;
 	}
 	h4{
 	    font-size: 1.2rem;
@@ -115,19 +175,19 @@ main{
 	h6{
 	    font-size: 1.0rem;
 	}
-
+    
 	/* 段落 */
 	p{
 	    margin-left: 0.25em;
 	    text-indent: 1em;
 	}
-
+	
 	/* 引用 */
 	blockquote{
 	    border-left: 5px solid #ccc;
 	    padding-left: 12px;
 	}
-
+	
 	/* リスト要素 */
 	ul, ol, dd{
 	    margin:{
@@ -139,7 +199,7 @@ main{
 		margin: 0.075rem 0 0.075rem 1.75rem;
 	    }
 	}
-
+	
 	/* コード・整形済テキスト */
 	pre{
 	    background-color: #eee;
@@ -154,7 +214,7 @@ main{
 	    font-size: 0.9em;
 	    padding: 0.05em 0.5em;
 	}
-
+	
 	/* テーブル */
 	table{
 	    border-collapse: collapse;
@@ -173,74 +233,33 @@ main{
 		background-color: none;   /* 偶数行の背景色 */
 	    }
 	}
-    }
 
-    /*----- サイド -----*/
-    aside{
-	width: 22%;
-	padding-top: 10px;
-	line-height: 1.4;
+	/* リンク */
 	a{
 	    text-decoration: none;
-	    display: block;
-	    border-right: 0.3em solid white;
-	    padding: 0.1em 0.3em 0.1em 0.5em;
+	    color: #03f;
 	}
 	a:hover{
-	    border-right: 0.3em solid #aae;
-	    background-color: #eee;
+	    text-decoration: underline;
 	}
-	h2{
-	    font-size: 1rem;
-	}
-	h3{
-	    font-weight: normal;
-	}
-	ul{
-	    list-style: none;
-	    li{
-		a{
-		    padding-top:0.2rem;
-		    padding-bottom:0.2rem;
-		    .date{
-			font-size: 0.8rem;
-			color: #666;
-		    }
-		    h3{
-			font-size: 1rem;
-			color: #00c;
-		    }
-		}
-	    }
+	a:visited{
+	    color: #93c;
 	}
     }
 }
 
+/*----- サイドバー -----*/
+aside{
 
-img{
-    max-width: 100%;
-}
-
-
-/*===== フッタ =====*/
-footer{
-    background-color: #eee;
-    margin: 30px 0 0;
-    padding: 10px 0 30px;
-    .wrapper{
-	display: flex;
-	justify-content: space-between;
-	h2{
-	    width: 30%;
-	}
-	div{
-	    width: 60%;
-	    div{
-		width: 40%;
-	    }
-	}
+    a.button{
+	color: white;
+	text-decoration: none;
+	border-color: black;
+	border-style: solid;
     }
-    .social-media-list .icon svg{
-	width:1em;
+    a.button:hover{
+	border-color: #999;
+	background-color: #666;
     }
+
 }

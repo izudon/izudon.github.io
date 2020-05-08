@@ -34,51 +34,67 @@
   <!--========== BODY はじまりはじまり〜 ==========-->
   <body>
 
-    <!--=== メイン ===-->
-    <main class="wrapper">
+    <div class="container">
+
+      <header>
+	<h1><a href="/">イ<br>ズ<br>イ<br>ノ<br>イ<br>チ<br>バ<br>ン<br>イ<br>イ<br>タ<br>イ<br>コ<br>ト</a></h1>
+      </header>
+
+      <!--=== メイン ===-->
+      <main>
       
-      <!--=== 記事 ===-->
-      <article>
-
 	<!-- 日付 -->
-	<header>
-	  <div class="title title-left">イズイノ<br>イマ</div>
-	  <div class="date">
-	    {{ site.time | date: "%b %d" }}
-	    <small>{{ site.time | date: "%a. %Y" }}</small>
-	  </div>
-	  <div class="title title-right">イイタイ<br>コト</div>
-	</header>
+	<div id="date">
+	  {% if page.date %}
+	  {{ page.date | date: "%b %d" }}
+	  <small>{{ page.date | date: "%a. %Y" }}</small>
+	  {% else %}
+	  {{ site.time | date: "%b %d" }}
+	  <small>{{ site.time | date: "%a. %Y" }}</small>
+	  {% endif %}
+	</div>
 
-	<!-- Leaflet contents -->
+	<!-- title -->
+	{% if page.title %}
+	<h1 id="title">{{ page.title }}</h1>
+	{% endif %}
+
+	<!-- map -->
 	{% if page.map %}
 	{% include map.html %}
 	{% endif %}
+	
+	<!-- article -->
+	<article>
 
-	<!-- 記事本体 -->
-	{{ content }}
+	  <!-- 記事本体 -->
+	  {{ content }}
 
-      </article>
+	</article>
 
-    
+      </main>
+      
       <!--=== サイドバー ===-->
       <aside>
 
 	<!-- Wiki Updates -->
 	<div class="wiki-updates">
-<!--
-	  <h2><a href="https://github.com/izudon/izudon.github.io/wiki/">Wiki Updates</a></h2>
--->
+
+	  <!-- title -->
+	  <h2><a class="button" href="https://github.com/izudon/izudon.github.io/wiki/">Wiki</a></h2>
+
+	  <!-- items -->
 	  <ul>
 	    {% for wiki in site.data.wiki %}
 	    <li>
-	      <a href="https://github.com/izudon/izudon.github.io/wiki/{{ wiki.name | url_encode }}">
+	      <a class="button" href="https://github.com/izudon/izudon.github.io/wiki/{{ wiki.name | url_encode }}">
 		<div class="date">{{ wiki.date }}</div>
 		<h3>{{ wiki.name }}</h3>
 	      </a>
 	    </li>
 	    {% endfor %}
 	  </ul>
+
 	</div>
 	
 	<!-- Site Updates -->
@@ -90,7 +106,7 @@
 	  <ul class="post-list">
 	    {% for post in site.posts %}
 	    <li>
-	      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+	      <a class="button" href="{{ post.url | prepend: site.baseurl }}">
 		<div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
 		<h3>{{ post.title }}</h3>
 	      </a>
@@ -103,11 +119,49 @@
 
       </aside>
 
-    </main>
+    </div>
     
     <!--=== フッタ部 ===-->
-    {% include footer.html %}
+    <footer class="site-footer">
 
+      <div class="wrapper">
+
+	<h2 class="footer-heading">{{ site.title }}</h2>
+	
+	<div class="footer-col-wrapper">
+
+	  <div class="footer-col footer-col-1">
+            <ul class="contact-list">
+              <li>{{ site.title }}</li>
+              <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            </ul>
+	  </div>
+	  
+	  <div class="footer-col footer-col-2">
+            <ul class="social-media-list">
+              {% if site.github_username %}
+              <li>
+		{% include icon-github.html username=site.github_username %}
+              </li>
+              {% endif %}
+	      
+              {% if site.twitter_username %}
+              <li>
+		{% include icon-twitter.html username=site.twitter_username %}
+              </li>
+              {% endif %}
+            </ul>
+	  </div>
+
+	  <div class="footer-col footer-col-3">
+            <p>{{ site.description }}</p>
+	  </div>
+
+	</div>
+	
+      </div>
+
+    </footer>
 
   </body>
 
