@@ -5,7 +5,7 @@ map:
    id: ogijima
    setZoom: 4
    setLat: 16.5
-   setLng: 69
+   setLng: 68.1
 ---
 
 # [@smellman](https://smellman.hatenablog.com)氏
