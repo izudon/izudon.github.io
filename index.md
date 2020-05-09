@@ -1,5 +1,6 @@
 ---
 layout: top-page
+title: false
 map: 
    id: ogijima
    setZoom: 4
