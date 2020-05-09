@@ -36,12 +36,12 @@
 
     <div class="container">
 
-      <header>
+      <header class="box-left">
 	<h1><a href="/">イ<br>ズ<br>イ<br>ノ<br>イ<br>チ<br>バ<br>ン<br>イ<br>イ<br>タ<br>イ<br>コ<br>ト</a></h1>
       </header>
 
       <!--=== メイン ===-->
-      <main>
+      <main class="box-main">
       
 	<!-- 日付 -->
 	<div id="date">
@@ -75,7 +75,7 @@
       </main>
       
       <!--=== サイドバー ===-->
-      <aside>
+      <aside class="box-right">
 
 	<!-- Wiki Updates -->
 	<div class="wiki-updates">
@@ -96,14 +96,16 @@
 	  </ul>
 
 	</div>
+
+	<!-- Horizontal Line -->
+	<hr style="margin: 5px 2px;">
 	
 	<!-- Site Updates -->
-	<hr style="margin: 5px 0">
-	<div>
-<!--
-	  <h2 class="page-heading">Posts</h2>
--->
-	  <ul class="post-list">
+	<div class="site-updates">
+
+	  <h2><a class="button" href="{{ "/feed.xml" | prepend: site.baseurl }}">Posts <small>via RSS</small></a></h2>
+
+	  <ul>
 	    {% for post in site.posts %}
 	    <li>
 	      <a class="button" href="{{ post.url | prepend: site.baseurl }}">
@@ -113,32 +115,46 @@
 	    </li>
 	    {% endfor %}
 	  </ul>
+
 	</div>
 
-	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+	
       </aside>
 
     </div>
+
     
     <!--=== フッタ部 ===-->
-    <footer class="site-footer">
+    <footer class="container">
 
-      <div class="wrapper">
+      <!-- Left Black Area -->
+      <div class="box-left"></div>
 
-	<h2 class="footer-heading">{{ site.title }}</h2>
+      <!-- Main Area -->
+      <div class="box-main">
+
+	<div><a href="/">
+	  <h2>{{ site.title }}</h2>
+	  <h3>また明日！</h3>
+
+	  <p class="date">
+	    {% if page.date %}
+	    {{ page.date | date_to_xmlschema }}
+	    {% else %}
+	    {{ site.time | date_to_xmlschema }}
+	    {% endif %}
+	  </p>
+
+	</a></div>
 	
-	<div class="footer-col-wrapper">
-
-	  <div class="footer-col footer-col-1">
-            <ul class="contact-list">
-              <li>{{ site.title }}</li>
-              <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            </ul>
-	  </div>
+	<div>
 	  
-	  <div class="footer-col footer-col-2">
-            <ul class="social-media-list">
+	  <div>
+            <p>{{ site.description }}</p>
+	  </div>
+
+	  <div>
+            <ul>
               {% if site.github_username %}
               <li>
 		{% include icon-github.html username=site.github_username %}
@@ -153,13 +169,12 @@
             </ul>
 	  </div>
 
-	  <div class="footer-col footer-col-3">
-            <p>{{ site.description }}</p>
-	  </div>
-
 	</div>
 	
       </div>
+
+      <!-- Right Black Area -->
+      <div class="box-right"></div>
 
     </footer>
 

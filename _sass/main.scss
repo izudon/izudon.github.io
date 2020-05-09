@@ -28,7 +28,7 @@ body{
     display: flex;
     justify-content: space-between;
 
-    header{
+    header, .box-left{
 	width: 32px;
 	background-color: black;
 	text-align: center;
@@ -37,14 +37,14 @@ body{
 	font-family: 'gagagaga';
     }
 
-    main{
+    main, .box-main{
 	margin: 0 auto;
 	min-width: 600px;
 	max-width: 600px;
 	width: 600px;
     }
 
-    aside{
+    aside, .box-right{
 	padding-top: 10px;
 	min-width: 180px;
 	max-width: 180px;
@@ -53,9 +53,9 @@ body{
 	color: white;
     }	
 }
+
 footer{
     background-color: #eee;
-    padding: 10px 15% 30px;
 }
 /***********************************************************************
   2. ブロック
@@ -85,7 +85,7 @@ main{
 
     /*----- 記事 -----*/
     article{
-	margin: 15px 0 ;
+	margin: 15px 0 4em ;
     }
 }
 
@@ -105,7 +105,43 @@ aside{
 }
 
 footer{
-    .social-media-list .icon svg{
+
+    .box-main{
+	padding: 20px 0 120px;
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	gap: 5px;
+
+	div{
+	    a{
+		text-decoration: none;
+		color: black;
+	    }
+	    h2{
+		font-family: 'gagagaga';
+		font-size: 20px;
+		margin-bottom: 0.2rem;
+	    }
+	    h3{
+		font-size: 1rem ;
+		font-weight: 400 ;
+		margin-left: 2em ;
+	    }
+	    .date{
+		margin: 1rem 0 0 6px ;
+		font-size: 14px;
+	    }
+	}
+    
+	div{
+	    ul{
+		list-style: none;
+	    }
+	}
+    }
+
+    
+    svg{
 	width:1em;
     }
 }
@@ -191,7 +227,7 @@ main{
 	/* リスト要素 */
 	ul, ol, dd{
 	    margin:{
-		left: 2.25rem;
+		left: 3rem;
 		top: 0.75rem;
 		bottom: 0.75rem;
 	    }
