@@ -32,7 +32,6 @@ body{
 	width: 32px;
 	background-color: black;
 	text-align: center;
-	position: sticky;
 	color: white;
 	font-family: 'gagagaga';
     }
@@ -110,7 +109,6 @@ footer{
 	padding: 20px 0 120px;
 	display: grid;
 	grid-template-columns: 1fr 1fr ;
-	gap: 5px;
 
 	div{
 	    a{
@@ -153,6 +151,7 @@ footer{
 
 /*----- ヘッダ -----*/
 header{
+    line-height: 40px;
 
     a{
 	text-decoration: none;
