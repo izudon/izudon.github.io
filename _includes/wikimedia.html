@@ -1,0 +1,19 @@
+<div>
+  <a
+    href="{{
+	  page.wikimedia.file |
+	  replace: ' ', '_' |
+	  url_encode |
+	  prepend: 'https://commons.wikimedia.org/wiki/File:'
+	  }}"
+    title="{{ page.wikimedia.attr | xml_escape }}"
+    ><img
+       src="https://upload.wikimedia.org/wikipedia/commons/thumb/{{
+	    page.wikimedia.cate | xml_escape
+	    }}/{{
+	    page.wikimedia.file | replace: ' ', '_' | url_encode
+	    }}/1024px-{{
+	    page.wikimedia.file | replace: ' ', '_' | url_encode
+	    }}"
+       alt="{{ page.wikimedia.file | xml_escape }}"></a>
+</div>

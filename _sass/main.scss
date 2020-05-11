@@ -215,6 +215,9 @@ main{
 	p{
 	    margin-left: 0.25em;
 	    text-indent: 1em;
+	    img{
+		max-width: 600px - 17px * 1.25 ;
+	    }
 	}
 	
 	/* 引用 */
@@ -236,6 +239,11 @@ main{
 	}
 	
 	/* コード・整形済テキスト */
+	code{
+	    background-color: #eee;
+	    font-size: 0.9em;
+	    padding: 0.05em 0.4em;
+	}
 	pre{
 	    background-color: #eee;
 	    font-size: 1.0em;
@@ -243,13 +251,11 @@ main{
 	    padding: 0.6em 1.2em;
 	    margin: 0.75em 0.1em;
 	    overflow: auto;
+	    code{
+		padding: 0;
+	    }
 	}
-	code{
-	    background-color: #eee;
-	    font-size: 0.9em;
-	    padding: 0.05em 0.5em;
-	}
-	
+
 	/* テーブル */
 	table{
 	    border-collapse: collapse;
