@@ -75,8 +75,8 @@ chiriin:
   minZoom: 0
   maxZoom: 18
   setZoom: 5
-  setLat: 35
-  setLng: 135
+  setLat: 34.7201
+  setLng: 135.4952
   href: "https://maps.gsi.go.jp/development/ichiran.html"
   caption: "地理院タイル（標準地図）"
 
@@ -85,7 +85,7 @@ chiriin_pale:
   minZoom: 0
   maxZoom: 18
   setZoom: 5
-  setLat: 35
-  setLng: 135
+  setLat: 34.7201
+  setLng: 135.4952
   href: "https://maps.gsi.go.jp/development/ichiran.html"
   caption: "地理院タイル（淡色地図）"
