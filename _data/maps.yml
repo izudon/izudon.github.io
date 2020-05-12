@@ -47,6 +47,15 @@ ogijima:
   href: "https://commons.wikimedia.org/wiki/File:Ogijima_-_男木島_(6994357609).jpg"
   caption: "男木島のおばちゃんたち - Wikimedia Commons"
 
+himeji1932:
+  path: /tiles/himeji1932/{z}/{y}/{x}.jpg
+  minZoom: 0
+  maxZoom: 6
+  href: "https://commons.wikimedia.org/wiki/File:Saishin_Jissoku_Himeji_Shigai_Zenzu_Map.jpg?fbclid=IwAR2UBcWkwWHSyxozINI4wbOc5jLPZymcR43XC9EwLIsyauYXDdGNCvNRB84"
+  caption: "最新実測姫路市街全図(1932) - Wikimedia Commons"
+  setLat: -38
+  setLng: -10
+
 daishokumap:
   path: /tiles/daishokumap/{z}/{y}/{x}.jpg
   minZoom: 0
@@ -58,3 +67,25 @@ osmlogo:
   path: /tiles/osmlogo/{z}/{y}/{x}.png
   minZoom: 0
   maxZoom: 4
+  href: "https://commons.wikimedia.org/wiki/File:Openstreetmap_logo.svg"
+  caption: "OpenStreetMap logo - WIkimedia Commons"
+
+chiriin:
+  path: https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png
+  minZoom: 0
+  maxZoom: 18
+  setZoom: 5
+  setLat: 35
+  setLng: 135
+  href: "https://maps.gsi.go.jp/development/ichiran.html"
+  caption: "地理院タイル（標準地図）"
+
+chiriin_pale:
+  path: https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png
+  minZoom: 0
+  maxZoom: 18
+  setZoom: 5
+  setLat: 35
+  setLng: 135
+  href: "https://maps.gsi.go.jp/development/ichiran.html"
+  caption: "地理院タイル（淡色地図）"
