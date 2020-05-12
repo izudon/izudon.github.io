@@ -19,6 +19,8 @@ github_username:  izudon
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-feed
 
 ###
 ### Original Settings
