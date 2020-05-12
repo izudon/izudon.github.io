@@ -4,16 +4,43 @@ map:
   id: osmlogo
   setZoom: 0
 ---
-      var popup = L.popup().setLatLng([0,0]).setContent("Loading...").openOn(map);
-      // geoJSON overlay
-      d3.json("/assets/for-leaflet-lesson/worldmap.geojson", function(json){
-        console.log(json);
+// Prepares "Loading..." Popup.
+var popup = L.popup()
+.setLatLng([0,0])
+.setContent("Loading...")
+.openOn(map);
+
+// geoJSON overlay
+
+// Load GeoJSON
+d3.json("/assets/for-leaflet-lesson/worldmap.geojson", function(json){
+
+	// DEBUG
+	console.log(json);
+
+	// Create GeoJSON Object for the map.
 	L.geoJSON( json, {
-	  style: function(feature){
-	    return { color: "maroon" };
-	  }
-	}).bindPopup(function(layer){
-          return layer.feature.properties.NAME_JA;
-	}).addTo(map);
+
+		// Visual Style Specification
+		style: function(feature){
+			// console.log(feature);
+			// console.log(feature.geometry.type);
+			return { color: "maroon" };
+		}
+
+	})
+
+	// Reserve Popup Contents to each GeoJSON Object(Layer).
+	.bindPopup(function(layer){
+		// console.log(layer);
+		// layer <- Rendering Object with GeoJSON Feature ...
+		// ... i.e. GeoJSON geometry and feature properties
+		return layer.feature.properties.NAME_JA;
+	})
+
+	// Add to the map.
+	.addTo(map);
+
+	// Remove "loading..." popup.
 	popup.remove();
-      });
+});
