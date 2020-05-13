@@ -181,7 +181,13 @@ main{
 
 	/* 水平線 */
 	hr{
-	    border-top: 2px dashed #ccc;
+	    border:{
+		top: 3px double #ddd;
+		bottom: 1px double #eee;
+		right: 0;
+		left: 0;
+	    }
+	    margin: 1rem 0;
 	}
     
 	/* 見出し */
