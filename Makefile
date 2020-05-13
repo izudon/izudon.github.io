@@ -7,9 +7,12 @@ build:
 wiki:
 	cd ../wiki ; pwd ; git pull
 	( cd ../wiki ; sh make.sh ) | tee _data/wiki.tsv
-daily:
+daily: wiki
+	git add _data/wiki.tsv
 	git add index.md
 	git commit -m "daily update"
 	git push
 post:
-	emacs `TZ=Asia/Tokyo date +"_post/%Y-%m-%d-%H_%M_%S.markdown"`
+	( echo "---" ; echo "layout: top-page" ; date +"date: %Y-%m-%d %H:%M:%S %z" ; echo "---" ) > .post
+	echo -n "title: " ; mv .post `date +_posts/%Y-%m-%d-\`head -n 1\`.md`
+	emacs `ls -1t _posts/* | head -n 1`
