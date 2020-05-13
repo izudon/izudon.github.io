@@ -1,3 +1,10 @@
+---
+layout: top-page
+---
+
+自分用 ~/.bashrc の覚書。
+
+```
 ###
 ### Original Settings
 ###
@@ -25,4 +32,4 @@ export LANG=ja_JP.utf8
 ### プロンプトに色を
 PS1='\e[32m\u@\h\e[m \e[33m\t\e[m '
 PS1='[ \u@\h \t \W ] '
-
+```
