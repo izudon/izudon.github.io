@@ -149,6 +149,17 @@
 	</a></div>
 	
 	<div>
+
+	  <div id="copyright">
+	    Copyright (c)
+	    {% if page.date %}
+	    {{ page.date | date: "%Y" }}
+	    {% else %}
+	    {{ site.time | date: "%Y" }}
+	    {% endif %}
+	    Masakazu IZUI
+	    All Right Reserved.
+	  </div>
 	  
 	  <div>
             <p>{{ site.description }}</p>
