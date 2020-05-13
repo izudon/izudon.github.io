@@ -1,5 +1,6 @@
 ---
 layout: top-page
+title: false
 maap: 
    id: himeji1932
    setZoom: 4
