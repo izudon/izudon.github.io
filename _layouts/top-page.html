@@ -143,11 +143,7 @@
 	  <h3>また明日！</h3>
 
 	  <p class="date">
-	    {% if page.date %}
-	    {{ page.date | date_to_xmlschema }}
-	    {% else %}
 	    {{ site.time | date_to_xmlschema }}
-	    {% endif %}
 	  </p>
 
 	</a></div>
