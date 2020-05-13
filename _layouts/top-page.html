@@ -108,7 +108,7 @@
 	<!-- Site Updates -->
 	<div class="site-updates">
 
-	  <h2><a class="button" href="{{ "/feed.xml" | prepend: site.baseurl }}">Posts <small>via RSS</small></a></h2>
+	  <h2><a class="button" href="{{ "/feed.xml" | prepend: site.baseurl }}">Posts <small>/ RSS</small></a></h2>
 
 	  <ul>
 	    {% for post in site.posts %}
@@ -183,6 +183,10 @@
 
     </footer>
 
+    {% if page.jsinclude %}
+    <script>{% include_relative {{ page.jsinclude }} %}</script>
+    {% endif %}
+    
   </body>
 
 </html>

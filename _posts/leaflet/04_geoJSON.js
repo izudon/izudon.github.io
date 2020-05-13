@@ -1,9 +1,3 @@
----
-layout: leaflet
-map:
-  id: osmlogo
-  setZoom: 0
----
 // Prepares "Loading..." Popup.
 var popup = L.popup()
 .setLatLng([0,0])

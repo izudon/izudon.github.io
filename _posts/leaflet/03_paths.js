@@ -1,9 +1,3 @@
----
-layout: leaflet
-map:
-  id: osmlogo
-  setZoom: 0
----
       // Paths overlay
       L.polyline( 
 	      [[10,20],[25,45],[40,45],[50,20]],

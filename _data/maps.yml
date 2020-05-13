@@ -67,6 +67,7 @@ osmlogo:
   path: /tiles/osmlogo/{z}/{y}/{x}.png
   minZoom: 0
   maxZoom: 4
+  setZoom: 0
   href: "https://commons.wikimedia.org/wiki/File:Openstreetmap_logo.svg"
   caption: "OpenStreetMap logo - WIkimedia Commons"
 
