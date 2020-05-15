@@ -18,10 +18,12 @@
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     
     <!-- Leaflet, D3 -->
+    {% if page.leaflet %}
     <link rel="stylesheet" href="/assets/lib/leaflet/leaflet.css" />
     <script type="text/javascript" src="/assets/lib/leaflet/leaflet.js"></script>
     <script type="text/javascript" src="/assets/lib/d3/d3.v3.min.js"></script>
-
+    {% endif %}
+    
     <!-- Webフォント (Google Fonts) -->
     <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&display=swap" rel="stylesheet">
