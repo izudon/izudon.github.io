@@ -16,12 +16,31 @@
     
     <!-- リセット CSS https://unpkg.com/ress/dist/ress.min.css -->
     <link rel="stylesheet" href="/assets/css/ress.min.css">
-    
+
+    <!-- Mapbox GL JS -->
+    {% if page.mapbox %}
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link
+      rel="stylesheet" type="text/css"
+      href="https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.css" />
+    <script
+      src="https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.js"
+      ></script>
+    {% endif %}
+
     <!-- Leaflet, D3 -->
     {% if page.leaflet %}
-    <link rel="stylesheet" href="/assets/lib/leaflet/leaflet.css" />
-    <script type="text/javascript" src="/assets/lib/leaflet/leaflet.js"></script>
-    <script type="text/javascript" src="/assets/lib/d3/d3.v3.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="/assets/lib/leaflet/leaflet.css" />
+    <script
+      type="text/javascript"
+      src="/assets/lib/leaflet/leaflet.js"></script>
+    <script
+      type="text/javascript"
+      src="/assets/lib/d3/d3.v3.min.js"></script>
     {% endif %}
     
     <!-- Webフォント (Google Fonts) -->
@@ -61,7 +80,24 @@
 	<h1 id="title">{{ page.title }}</h1>
 	{% endif %}
 
-	<!-- map -->
+	<!-- Mapbox -->
+	{% if page.mapbox %}
+	<div id="map"></div>
+	<script>
+	  //mapboxgl.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.1.0/mapbox-gl-rtl-text.js');
+	  var map = new mapboxgl.Map({
+	      container: 'map',
+	      style: '/assets/mapbox/jp1710-style.json',
+	      attributionControl: true,
+	      hash: true
+	  });
+	</script>
+	<script>
+	  map.addControl(new mapboxgl.NavigationControl());
+	</script>
+	{% endif %}
+	
+	<!-- Leaflet -->
 	{% if page.leaflet %}
 	{% include leaflet.html %}
 	{% endif %}
