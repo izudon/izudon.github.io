@@ -1,13 +1,13 @@
 
-{% assign map = site.data.maps[page.map.id] %}
+{% assign map = site.data.maps[page.leaflet.id] %}
 
 <div id="map"></div>
 <script type="text/javascript">
   var map = L.map( 'map' ).setView([
 
       // setLat 初期表示の緯度
-      {% if page.map.setLat %}
-      {{ page.map.setLat }}
+      {% if page.leaflet.setLat %}
+      {{ page.leaflet.setLat }}
       {% elsif map.setLat %}
       {{ map.setLat }}
       {% else %}
@@ -15,8 +15,8 @@
       {% endif %},
       
       // setLat 初期表示の経度
-      {% if page.map.setLng %}
-      {{ page.map.setLng }}
+      {% if page.leaflet.setLng %}
+      {{ page.leaflet.setLng }}
       {% elsif map.setLng %}
       {{ map.setLng }}
       {% else %}
@@ -24,8 +24,8 @@
       {% endif %}
   ],
       // 初期表示のズームレベル
-      {% if page.map.setZoom %}
-      {{ page.map.setZoom }}
+      {% if page.leaflet.setZoom %}
+      {{ page.leaflet.setZoom }}
       {% elsif map.setZoom %}
       {{ map.setZoom }}
       {% else %}

@@ -1,7 +1,7 @@
 ---
 date: 2020-05-12 17:12:39 +0900
 layout: default
-map:
+leaflet:
   id: chiriin_pale
   setZoom: 7
 jsinclude: leaflet/05_kansai_cinema.js
