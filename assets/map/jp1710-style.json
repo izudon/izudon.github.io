@@ -1,9 +1,9 @@
 {
   "version": 8,
-  "name": "Klokantech Basic JA",
+  "name": "Klokantech Basic JA -> Centralize Osaka Sta. by Masakazu IZUI",
   "center": [
-    138.731389,
-    35.362222
+      34.7201,
+      135.4952
   ],
   "zoom": 5,
   "bearing": 0,
