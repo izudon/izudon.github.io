@@ -1,4 +1,4 @@
-<div>
+<div id="front-image">
   <a
     href="{{
 	  page.wikimedia.file |
@@ -12,7 +12,9 @@
 	    page.wikimedia.cate | xml_escape
 	    }}/{{
 	    page.wikimedia.file | replace: ' ', '_' | url_encode
-	    }}/1024px-{{
+	    }}/{% if page.wikimedia.px %}{{
+	    page.wikimedia.px
+	    }}{% else %}1024{% endif %}px-{{
 	    page.wikimedia.file | replace: ' ', '_' | url_encode
 	    }}"
        alt="{{ page.wikimedia.file | xml_escape }}"></a>
