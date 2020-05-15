@@ -1,7 +1,7 @@
 ---
 leaflet:
   id: osmlogo
-jsinclude: leaflet/02_imageOverlay.js
+jsinclude: mapjs/02_imageOverlay.js
 ---
 # Source:
 
