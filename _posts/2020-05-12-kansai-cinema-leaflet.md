@@ -7,7 +7,12 @@ leaflet:
 jsinclude: mapjs/05_kansai-cinema-leaflet.js
 ---
 
-* Leaflet 地図への GeoJSON オーバレイ表示（習作）。
+* [Mapbox <=> Leaflet]({% post_url 2020-05-15-mapbox-leaflet %})
+* [Kansai Cinema / Mapbox]({% post_url 2020-05-15-kansai-cinema-mapbox %})
+* [Kansai Cinema / Leaflet]({% post_url 2020-05-12-kansai-cinema-leaflet %})
+
+
+Leaflet 地図への GeoJSON オーバレイ表示（習作）。
 
 
 # 抽出

@@ -5,6 +5,11 @@ mapbox: true
 jsinclude: mapjs/06_kansai-cinema-mapbox.js
 ---
 
+* [Mapbox <=> Leaflet]({% post_url 2020-05-15-mapbox-leaflet %})
+* [Kansai Cinema / Mapbox]({% post_url 2020-05-15-kansai-cinema-mapbox %})
+* [Kansai Cinema / Leaflet]({% post_url 2020-05-12-kansai-cinema-leaflet %})
+
+
 [Mapbox <=> Leaflet]({% post_url 2020-05-15-mapbox-leaflet %})
 で書いた通り・・・
 
