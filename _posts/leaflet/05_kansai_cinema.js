@@ -1,11 +1,3 @@
-// Prepares "Loading..." Popup.
-//var popup = L.popup()
-//.setLatLng([0,0])
-//.setContent("Loading...")
-//.openOn(map);
-
-// geoJSON overlay
-
 // Load GeoJSON
 d3.json("/assets/map/kansai-cinema.geojson", function(json){
 
