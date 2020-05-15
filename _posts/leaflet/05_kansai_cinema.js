@@ -7,7 +7,7 @@
 // geoJSON overlay
 
 // Load GeoJSON
-d3.json("/assets/for-leaflet-lesson/kansai-cinema.geojson", function(json){
+d3.json("/assets/map/kansai-cinema.geojson", function(json){
 
 	// DEBUG
 	console.log(json);

@@ -7,7 +7,7 @@ var popup = L.popup()
 // geoJSON overlay
 
 // Load GeoJSON
-d3.json("/assets/for-leaflet-lesson/worldmap.geojson", function(json){
+d3.json("/assets/map/worldmap.geojson", function(json){
 
     // DEBUG
     // console.log(json);
