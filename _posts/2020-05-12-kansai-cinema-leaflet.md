@@ -36,7 +36,7 @@ $ osmium export -f geojson kansai-cinema.pbf \
 ```
 
 
-# 実践
+# 表示
 
 ## HTML
 

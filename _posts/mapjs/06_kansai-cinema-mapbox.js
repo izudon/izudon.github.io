@@ -22,8 +22,27 @@ map.on( 'load', function(){
         'source': 'kansai-cinema',
         'paint': {
             'fill-color': 'maroon',
-            'fill-opacity': 0.5
+            'fill-opacity': 0.25
         },
         'filter': ['==', '$type', 'Polygon' ]
     });
+
+    map.addLayer({
+        'id': 'kansai-cinema-line',
+        'type': 'line',
+        'source': 'kansai-cinema',
+        'paint': {
+            'line-color': 'maroon',
+            'line-opacity': 1.0
+        },
+        'filter': ['==', '$type', 'LineString' ]
+    });
 });
+
+
+function zoomInSenbon(){
+    alert(map.getCenter());
+    map.setCenter([135.7518,35.0239]);
+    map.setZoom(13);
+}
+

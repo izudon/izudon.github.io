@@ -5,7 +5,8 @@ mapbox: true
 jsinclude: mapjs/06_kansai-cinema-mapbox.js
 ---
 
-前回お話しした通り・・・
+[Mapbox <=> Leaflet]({% post_url 2020-05-15-mapbox-leaflet %})
+で書いた通り・・・
 
 * Leaflet ではオーバレイのひとつだった GeoJSON ですが・・・
 * Mapbox では `Source` として、背景地図と同等の扱いを受ける。  
@@ -76,43 +77,43 @@ map.addSource( 'kansai-cinema', {
 
 OpenStreetMap には
 
-* 「ノード」すなわち「点」として入れられている映画館
-* 「ウェイ」すなわち「建物の輪郭」を「多角形（ポリゴン）」として  
-  入れられている映画館
+1. 「ノード」すなわち「点」として入れられている映画館
+2. 「ウェイ」すなわち「建物の輪郭」が入れられている映画館
 
-この両方があるので今回は・・・
+この２種類があり、GeoJSON に出力した時に
 
-* 「点」は「円盤」として表示。
+1. 「ノード」はジオメトリタイプ `Point` として出力
+2. 「ウェイ」はジオメトリタイプ `LineString` として出力
+3. 「ウェイ」で「囲まれた部分」はまた `MultiPolygon` としても出力
+
+されていることがわかった。
+
+従って今回は・・・
+
+* `Point` を「円盤 `circle`」として表示。
   * Leaflet でいう CircleMaker みないなものになります。  
     （ズームイン／アウトしても大きさが変わらない（ピクセル指定））。
+* `MultiPolygon` を「塗り `fill`」として表示
+* `LineString` を「線 `line`」として表示
 
-```javascript
-map.addLayer({
-  'id': 'kansai-cinema-point',
-  'type': 'circle',
-  'source': 'kansai-cinema',
-  'paint': {
-    'circle-radius': 10,
-    'circle-color': '#3887be'
-  },
-  'filter': ['==', '$type', 'Point' ]
-});
-```
+することとした。
 
-* 「多角形」は「多角形」として表示
+なお、GeoJSON から `filetr` 条件で抽出する場合、
 
-```javascript
-map.addLayer({
-  'id': 'kansai-cinema-polygon',
-  'type': 'fill',
-  'source': 'kansai-cinema',
-  'paint': {
-    'fill-color': 'maroon',
-    'fill-opacity': 0.5
-  },
-  'filter': ['==', '$type', 'Polygon' ]
-});
-```
+* `Point` は `Point` のままで、
+* `LineString` も `LineString` のままでよいか
+* `MultiPolygon` は `Polygon` として
+
+条件指定しなければ取り出されないようだ。
+
+京都千本日活が、「ノード」としても「ウェイ」としても
+登録されていることがわかった。
+ズームレベルを上げるにつれ、建物の大きさがマーカの
+円盤のピクセルを超えて大きくなってくる様子を見ることができる。
+
+下記リンクをクリックで冒頭の地図が千本日活付近へズームします。
+
+* [京都千本日活へズーム](javascript:zoomInSenbon();)
 
 
 ### これらを `map.on('load',` でくるむ
