@@ -1,5 +1,5 @@
 ---
-layout: top-page
+layout: default
 title: false
 maap: 
    id: himeji1932

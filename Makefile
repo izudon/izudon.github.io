@@ -13,6 +13,6 @@ daily: wiki
 	git commit -m "daily update"
 	git push
 post:
-	( echo "---" ; echo "layout: top-page" ; date +"date: %Y-%m-%d %H:%M:%S %z" ; echo "---" ) > .post
+	( echo "---" ; echo "layout: default" ; date +"date: %Y-%m-%d %H:%M:%S %z" ; echo "---" ) > .post
 	echo -n "title: " ; mv .post `date +_posts/%Y-%m-%d-\`head -n 1\`.md`
 	emacs `ls -1t _posts/* | head -n 1`

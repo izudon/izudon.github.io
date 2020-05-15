@@ -1,5 +1,5 @@
 ---
-layout: top-page
+layout: default
 map:
   id: osmlogo
 jsinclude: leaflet/02_imageOverlay.js

@@ -1,6 +1,6 @@
 ---
 date: 2020-05-12 17:12:39 +0900
-layout: top-page
+layout: default
 map:
   id: chiriin_pale
   setZoom: 7
@@ -21,4 +21,8 @@ $ osmium tags-filter -o kansai-cinema.pbf kansai-latest.osm.pbf \
   nw/amenity=cinema 
 $ osmium export -f geojson kansai-cinema.pbf \
   > kansai-cinema2.geojson
+```
+
+```javascript
+{% include_relative {{ page.jsinclude }} %}
 ```

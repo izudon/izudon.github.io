@@ -1,5 +1,5 @@
 ---
-layout: top-page
+layout: default
 ---
 
 自分用 ~/.bashrc の覚書。
