@@ -1,0 +1,87 @@
+/***********************************************************************
+  2. ブロック
+***********************************************************************/
+
+main{
+    /*----- date -----*/
+    #date{
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	text-align: center;
+	margin: 10px 0;
+    }
+
+    /*----- title -----*/
+    #title{
+	margin: 15px 0;
+	text-align: center;
+	font-size: 36px;
+    }
+
+    /*----- map -----*/
+    #map{
+	height: 300px;
+	margin: 10px 0;
+    }
+
+    /*----- 記事 -----*/
+    article{
+	margin: 15px 0 4em ;
+    }
+}
+
+aside{
+    font-size: 14px;
+
+    h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p{
+	margin: 0;
+	padding: 0;
+    }
+
+    a.button{
+	display: block;
+	border-width: 0 /*5px*/;
+	padding: 3px 5px 3px 10px;
+    }
+}
+
+footer{
+
+    .box-main{
+	padding: 20px 0 120px;
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+
+	div{
+	    a{
+		text-decoration: none;
+		color: black;
+	    }
+	    h2{
+		font-family: 'gagagaga';
+		font-size: 20px;
+		margin-bottom: 0.2rem;
+	    }
+	    h3{
+		font-size: 1rem ;
+		font-weight: 400 ;
+		margin-left: 2em ;
+	    }
+	    .date{
+		margin: 1rem 0 0 6px ;
+		font-size: 14px;
+	    }
+	}
+    
+	div{
+	    ul{
+		list-style: none;
+	    }
+	}
+    }
+
+    
+    svg{
+	width:1em;
+    }
+}

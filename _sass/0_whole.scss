@@ -1,0 +1,22 @@
+/***********************************************************************
+  0. 全体設定
+***********************************************************************/
+
+/* Webフォント */
+@font-face {
+  font-family: 'gagagaga';
+  src: url('/assets/fonts/GAGAGAGA-FREE.woff') format('woff');
+}
+
+/* 全体設定 */
+body{
+    font:{
+	family: 'Noto Sans JP', -apple-system;
+	size: 16px;
+	weight: 300;
+    }
+    img{
+	max-width: 100%;
+    }
+}
+
