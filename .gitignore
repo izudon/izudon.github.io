@@ -1,4 +1,5 @@
 _site/
+_drafts/
 .jekyll-cache/
 .sass-cache/
 .bundle/
@@ -6,4 +7,3 @@ _site/
 .gitconfig
 Gemfile
 Gemfile.lock
-.draft

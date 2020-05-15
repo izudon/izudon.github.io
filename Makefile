@@ -1,7 +1,9 @@
 serve:
-	bundler exec jekyll serve --host=192.168.56.106 2>/dev/null 1>/dev/null
+	bundler exec jekyll serve --drafts \
+	--host=192.168.56.106 2>/dev/null 1>/dev/null
 vserve:
-	bundler exec jekyll serve --host=192.168.56.106
+	bundler exec jekyll serve --drafts \
+	--host=192.168.56.106
 build:
 	bundler exec jekyll build
 wiki:
