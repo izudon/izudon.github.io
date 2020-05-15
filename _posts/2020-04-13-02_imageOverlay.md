@@ -1,5 +1,4 @@
 ---
-layout: default
 leaflet:
   id: osmlogo
 jsinclude: leaflet/02_imageOverlay.js

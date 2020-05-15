@@ -1,7 +1,6 @@
 ---
-layout: default
 title: false
-maap: 
+leaflett: 
    id: himeji1932
    setZoom: 4
 wikimediaa:

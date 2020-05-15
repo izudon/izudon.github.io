@@ -1,6 +1,5 @@
 ---
 date: 2020-05-12 17:12:39 +0900
-layout: default
 leaflet:
   id: chiriin_pale
   setZoom: 7
