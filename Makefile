@@ -6,6 +6,8 @@ vserve:
 	--host=192.168.56.106
 build:
 	bundler exec jekyll build --drafts
+edit:
+	emacs _drafts/a.md index.md
 wiki:
 	cd ../wiki ; pwd ; git pull
 	( cd ../wiki ; sh make.sh ) | tee _data/wiki.tsv
