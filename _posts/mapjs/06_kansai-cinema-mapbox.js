@@ -41,7 +41,6 @@ map.on( 'load', function(){
 
 
 function zoomInSenbon(){
-    alert(map.getCenter());
     map.setCenter([135.7518,35.0239]);
     map.setZoom(13);
 }

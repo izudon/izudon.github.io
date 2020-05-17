@@ -11,7 +11,7 @@ jsinclude: mapjs/06_kansai-cinema-mapbox.js
 
 
 [Mapbox <=> Leaflet]({% post_url 2020-05-15-mapbox-leaflet %})
-で書いた通り・・・
+で書かせていただいた通り・・・
 
 * Leaflet ではオーバレイのひとつだった GeoJSON ですが・・・
 * Mapbox では `Source` として、背景地図と同等の扱いを受ける。  
@@ -63,8 +63,10 @@ jsinclude: mapjs/06_kansai-cinema-mapbox.js
 （省略）
 ```
 
-* jp1710 からいただいたものです。
-* 緯度経度とズームレベルの初期値だけ変えました（大阪中心にしました！）。
+* [jp1710](https://qiita.com/hfu/items/e7c0318bba67827d4327)
+  からいただいたものです。
+* 緯度経度とズームレベルの初期値だけ変えました。  
+  （大阪中心にしました！）。
 
 
 ## GeoJSON 乗せる
@@ -95,18 +97,18 @@ OpenStreetMap には
 
 従って今回は・・・
 
-* `Point` を「円盤 `circle`」として表示。
+* `Point`（地点としての映画館）を「点／円盤 `circle`」として表示。
   * Leaflet でいう CircleMaker みないなものになります。  
     （ズームイン／アウトしても大きさが変わらない（ピクセル指定））。
-* `MultiPolygon` を「塗り `fill`」として表示
-* `LineString` を「線 `line`」として表示
+* `MultiPolygon`（建物の本体）を「塗り `fill`」として表示
+* `LineString`（建物の輪郭線）を「線 `line`」として表示
 
 することとした。
 
-なお、GeoJSON から `filetr` 条件で抽出する場合、
+なお、GeoJSON から `filter` 条件で抽出する場合、
 
 * `Point` は `Point` のままで、
-* `LineString` も `LineString` のままでよいか
+* `LineString` も `LineString` のままでよいが、
 * `MultiPolygon` は `Polygon` として
 
 条件指定しなければ取り出されないようだ。
@@ -123,18 +125,12 @@ OpenStreetMap には
 
 ### これらを `map.on('load',` でくるむ
 
-load 完了前に実行するとエラーとなるため。
+マップのロード完了前に実行されてしまうとエラーとなるため。
 
 
 # 結果
 
 ページ冒頭の通り。
-
-京都御所真西にある「千本日活」は、「点」としても「多角形」としても
-マッピングされていたので両方表示される。
-
-拡大していくと次第に建物の輪郭が円盤の大きさを超えてきて
-前面に出てくる様子が見て取れる。
 
 
 # Source:
