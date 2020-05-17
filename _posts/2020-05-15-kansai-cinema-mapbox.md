@@ -1,5 +1,5 @@
 ---
-date: 2020-05-12 21:30:00 +0900
+date: 2020-05-15 21:30:00 +0900
 title: Kansai Cinema / Mapbox
 mapbox: true
 jsinclude: mapjs/06_kansai-cinema-mapbox.js
