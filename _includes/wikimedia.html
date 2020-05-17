@@ -14,7 +14,7 @@
 	    page.wikimedia.file | replace: ' ', '_' | url_encode
 	    }}/{% if page.wikimedia.px %}{{
 	    page.wikimedia.px
-	    }}{% else %}1024{% endif %}px-{{
+	    }}{% else %}640{% endif %}px-{{
 	    page.wikimedia.file | replace: ' ', '_' | url_encode
 	    }}"
        alt="{{ page.wikimedia.file | xml_escape }}"></a>

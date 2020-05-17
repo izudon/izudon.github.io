@@ -1,0 +1,1 @@
+[![{{ include.title }}](https://images-na.ssl-images-amazon.com/images/P/{{ include.asin }}.09._PC__.jpg)](https://amazon.jp/dp/{{ include.asin }})
