@@ -70,13 +70,12 @@ Mapbox がどういう構造になっているか大体わかったので、
 
 [![鬼滅の刃ロゴ](https://upload.wikimedia.org/wikipedia/commons/e/ec/Kimetsu_no_Yaiba_logo.svg)](https://commons.wikimedia.org/wiki/File:Kimetsu_no_Yaiba_logo.svg)
 
-{%   include amazon.md asin="B01EJ7AK5O" titile="鬼滅の刃１"
-%}{% include amazon.md asin="B01HD6UKSU" titile="鬼滅の刃２"
-%}{% include amazon.md asin="B01KJGD5YC" titile="鬼滅の刃３"
-%}{% include amazon.md asin="B01M6ZDMEH" titile="鬼滅の刃４"
-%}
+{% include amazon.md asin="B01EJ7AK5O" title="鬼滅の刃１" %}
+{% include amazon.md asin="B01HD6UKSU" title="鬼滅の刃２" %}
+{% include amazon.md asin="B01KJGD5YC" title="鬼滅の刃３" %}
+{% include amazon.md asin="B01M6ZDMEH" title="鬼滅の刃４" %}
 
-{% include amazon.md asin="B01MS9J9A4" titile="鬼滅の刃５" %}
+{% include amazon.md asin="B01MS9J9A4" title="鬼滅の刃５" %}
 
 
 文春の記事にほだされ試し読みをした後、気になって５巻まで買ってしまう。
