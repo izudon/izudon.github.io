@@ -1,100 +1,67 @@
 ---
 title: ""
 wikimedia:
-  file: Kamakura koukou mae Fumikiri.jpg
-  cate: 0/0b
-  attr: Quercus acuta / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)
+  file: 150504 Takamatsu Station Takamatsu Kagawa pref Japan02s3.jpg
+  cate: 5/57
+  attr: 663highland / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)
 ---
-
-江ノ電鎌倉高校前踏切から湘南の海をのぞむ。
-
-
-# 毛布の一件
-
-金曜日、ベランダに干しておいた毛布を取り込み忘れた。
-（夕方にカーテンを閉めて電話とかしていたら、
-  ベランダのことがすっかり頭から抜けていた）。
-そうしたら夜半頃から雨になり、
-朝気がついたらその毛布はびしょ濡れだった。
-
-これも機会だからと昨日、生まれて初めて毛布を洗濯してみた。
-脱水した後、物干しに干してみた。夕方取り込むと、
-なんとなくゴワゴワした感じがした。
-
-なるほどだから柔軟剤が必要なのか。ひとつ勉強になった。
-
-
 # 図書館
 
-昨日の、コロナ後の図書館に関する描写が、自分的に不甲斐なかったので、
-ちゃんと書き直しました。
+リンク先間違ってましたごめんなさい。
 
-何時間かかったか・・・。
-
-俺ほんとにバカだなと思う。
-
-* [図書館戦争はそこにある]({% post_url 2020-05-17-library-just-after-the-suspension %})
+* [図書館戦争はそこにある]({% post_url 2020-05-17-library-after-corona %})
 
 
+# 日経記事
 
-# Mapbox Examples
+忖度記事でも提灯記事でもない記事が日経に上がっていた。
 
-Mapbox がどういう構造になっているか大体わかったので、
-次に考えられるのは
-[Mapbox Examples](https://docs.mapbox.com/mapbox-gl-js/examples/)
-をひとつひとつ確認しながら、
-どう書けば何ができるのかをひとつひとつ知っていくというやり方だ。
+* [コロナ禍が揺るがす「地の利」: 日本経済新聞](https://www.nikkei.com/article/DGXMZO59161500V10C20A5000000/)
 
-これを１点ずつ全て見ていけばかなりの力になるだろう。
+> 多くの鉄道ファンがSNS上で運行開始の延期を嘆いた観光列車
+> 「ウエストエクスプレス銀河」。
 
-* [Mapbox Examples](https://docs.mapbox.com/mapbox-gl-js/examples/)
-  1. Gettins started (1)
-  1. Styles (11) \*
-  1. Layers (39) \*
-  1. Sources (15) \*
-  1. User interaction (27)
-  1. Camera (13)
-  1. Controls and overlays (17)
-  1. Geocoder (10)
-  1. Browser support (1)
-  1. Internationalizarion support (2)
-
-全部で 136 もある！
+鉄道ファンにしか響いていなかったか・・・。
 
 
+# 東京五輪
+
+* [「誰もが五輪が好き」はおごりと言っていい　山口香さん - 東京オリンピック：朝日新聞デジタル](https://digital.asahi.com/articles/ASN5J4JYJN59UTQP014.html)
+
+「今一度その意義を問い直される」機会ってものには
+しばしば遭遇してしまうものだと思う。
+
+僕にとってその具体的なものは「勉強の意義」であり
+「挑戦の意義」であり、「ＩＴ変革の意義」であり・・・。
+枚挙にいとまがない。
+
+これは自分の実体験としてもそうだけれども、
+世の中全体というものも結局はそうやって進歩してきたのだと思う。
+その価値を疑いもせず前例を繰り返すだけでは
+世の中の進歩なんて誰が考えたってあり得ない話だ。
+
+スポーツ界の人も今日のこ状況にあってその機会に
+図らずも巡り合ってしまったということなのだろう。
+おめでとうとまでは言わないけれども、
+いい機会になったんじゃないのという気はする。
+
+政府としては、政府のバックアップをアテにせず、
+広報活動は自分たちでやっていってくださいという
+メッセージだったりするのかもしれない？
 
 
-# 漫画『鬼滅の刃』
+# 身辺雑記
 
-.
-
-[![鬼滅の刃ロゴ](https://upload.wikimedia.org/wikipedia/commons/e/ec/Kimetsu_no_Yaiba_logo.svg)](https://commons.wikimedia.org/wiki/File:Kimetsu_no_Yaiba_logo.svg)
-
-{% include amazon.md asin="B01EJ7AK5O" title="鬼滅の刃１" %}
-{% include amazon.md asin="B01HD6UKSU" title="鬼滅の刃２" %}
-{% include amazon.md asin="B01KJGD5YC" title="鬼滅の刃３" %}
-{% include amazon.md asin="B01M6ZDMEH" title="鬼滅の刃４" %}
-
-{% include amazon.md asin="B01MS9J9A4" title="鬼滅の刃５" %}
-
-
-文春の記事にほだされ試し読みをした後、気になって５巻まで買ってしまう。
-
-読んで直感・・・、これ、書かなあかんやつや！（でも余力がない）
-
-* [累計6000万部超え「鬼滅の刃」　“女性作者”の素顔と“まもなく連載終了”の事情  文春オンライン](https://bunshun.jp/articles/-/37807)
-
-
-# 今日も週始まり
-
-社会で生きて仕事している限り、危険とは常に隣り合わせ。
-
-今週も気を抜かぬよう、慎重に頑張っていこう。
+* 神伸び放題だけど来週にならないとＱＢハウスは開きません。
+* 阪急阪神百貨店は明後日から開けるそうです（土日祝日は休業）。
 
 
 # 今朝の感謝ｘ３
 
-* 『鬼滅の刃』を生み出した、作者の吾峠呼世晴さんはじめ  
-  スタッフの方々ありがとう。
-* 毛布を洗濯してくれたコインランドリーにありがとう。
-* 毛布を乾かしてくれた昨日の天気にありがとう。
+* 客観的な証拠を調べ、広報からの垂れ流しではない記事（調査報道）を  
+  書いてくださった日経の記者さんありがとう。
+* 持続可能なスポーツ界にするために必要なことをやろうとされている  
+  スポーツ界の皆様にありがとう。
+* 鶏もの肉の甘酢餡かけのいつも美味しいやつを提供してくださっている  
+  ダイエーさんありがとう。
+
