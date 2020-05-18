@@ -33,7 +33,7 @@ wikimedia:
 
 俺ほんとにバカだなと思う。
 
-* [図書館戦争はそこにある]()
+* [図書館戦争はそこにある]({{ post_url 2020-05-17-library-just-after-the-suspension }})
 
 
 
