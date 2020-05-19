@@ -13,7 +13,7 @@ map.on( 'load', function(){
             'circle-radius': 10,
             'circle-color': '#3887be'
         },
-        'filter': ['==', '$type', 'Point' ]
+        'filter': ['==', ['geometry-type'], 'Point' ]
     });
 
     map.addLayer({
@@ -24,7 +24,7 @@ map.on( 'load', function(){
             'fill-color': 'maroon',
             'fill-opacity': 0.25
         },
-        'filter': ['==', '$type', 'Polygon' ]
+        'filter': ['==', ['geometry-type'], 'Polygon' ]
     });
 
     map.addLayer({
@@ -35,7 +35,7 @@ map.on( 'load', function(){
             'line-color': 'maroon',
             'line-opacity': 1.0
         },
-        'filter': ['==', '$type', 'LineString' ]
+        'filter': ['==', ['geometry-type'], 'LineString' ]
     });
 });
 
