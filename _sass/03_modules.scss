@@ -85,6 +85,9 @@ main{
 	    border-right: 0.4rem solid #ddd;
 	    padding: 0.2rem 0.6rem ;
 	    background-color: #eee;
+	    pre, code, tt{
+		background-color: #e0e0e0;
+	    }
 	}
 	
 	/* リスト要素 */
@@ -128,6 +131,9 @@ main{
 	tr:nth-child(odd){
 	    th, td {
 		background-color: #eee;   /* 奇数行の背景色 */
+		pre, code, tt{
+		    background-color: #ddd;
+		}
 	    }
 	}
 	tr:nth-child(even){
