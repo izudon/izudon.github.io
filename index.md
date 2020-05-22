@@ -1,9 +1,13 @@
 ---
 title: ""
 wikimedia:
-  file: American Eskimo Dog 1.jpg
-  cate: f/fe
-  attr: Christmas w/a K / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0)
+  file: Mountain hut Kita and Mount Kita 2001-10-03.jpg
+  cate: f/ff
+  attr: Alpsdake / CC0
+wikimediaa:
+  file: BennyTrapp Chamaeleo chamaeleon Samos Griechenland.jpg
+  cate: 2/2e
+  attr: Benny Trapp / CC BY (https://creativecommons.org/licenses/by/3.0)
 ---
 
 # 本当に悪い人は姿を見せない
@@ -22,6 +26,8 @@ wikimedia:
 
 この「罠」に気づき思惑にはまらないようにすることは、
 関西人としての基本的な教養と思わなくてはならない。
+
+----
 
 * 親切に見えるものは餌。  
   * 関心を買っておいて釣り上げるための前振りである。  
