@@ -1,9 +1,9 @@
 ---
 title: ""
 wikimedia:
-  file: Mountain hut Kita and Mount Kita 2001-10-03.jpg
-  cate: f/ff
-  attr: Alpsdake / CC0
+  file: BennyTrapp Chamaeleo chamaeleon Samos Griechenland.jpg
+  cate: 2/2e
+  attr: Benny Trapp / CC BY (https://creativecommons.org/licenses/by/3.0)
 ---
 
 # 本当に悪い人は姿を見せない
