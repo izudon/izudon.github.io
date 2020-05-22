@@ -1,9 +1,9 @@
 ---
 title: ""
 wikimedia:
-  file: BennyTrapp Chamaeleo chamaeleon Samos Griechenland.jpg
-  cate: 2/2e
-  attr: Benny Trapp / CC BY (https://creativecommons.org/licenses/by/3.0)
+  file: American Eskimo Dog 1.jpg
+  cate: f/fe
+  attr: Christmas w/a K / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0)
 ---
 
 # 本当に悪い人は姿を見せない
