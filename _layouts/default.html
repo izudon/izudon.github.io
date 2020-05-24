@@ -79,7 +79,7 @@
 
 	<!-- title -->
 	{% if page.title %}
-	<h1 id="title">{{ page.title }}</h1>
+	<h1 id="title">{{ page.title | newline_to_br }}</h1>
 	{% endif %}
 
 	<!-- Mapbox -->
