@@ -1,36 +1,25 @@
 ---
 title: ""
 karadascan:
-  weight: 65.8
-  fat:    22.7
+  weight: 64.8
+  fat:    22.5
 wikimedia:
-  file: KIMONO GIRLS IN TOKYO 2.jpg
-  cate: 5/55
-  attr: Øyvind Holmstad / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)
+  file: Shinbun hanbai-ten kanban P8260114.jpg
+  cate: 2/28
+  attr: 白蛇の騎士 / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)
+wikimedia:
+  file: KanamachiWaterPurificationPlant 20181224 124159.jpg
+  cate: c/c5
+  attr: ka23_13 CC-BY-SA 4.0
 ---
 
-* 土曜日、売りにいく本を風呂敷に入れて肩に掛け、なんばウォークを  
-  歩いていたら、前を通りがかった着物売り場で店員のお姉さんがニッコリ。
-* 和のテイストを大事にするもの同士と思われたに違いない。
-
-
-# 人を幸せにするため
-
-* 昨日も言及したけれども、この考え方、意外と好きだったりする。
-* 着物売り場のお姉さんも、手ぬぐい売り場のお姉さんも、  
-  きっとその着物や手ぬぐいで人に幸せになってもらいたいと願っている。  
-* 自分たちのひと押しふた押し、また売り場の作り方で、  
-  きっとそれができると信じている。  
-* 僕が今までに会ってきた売り場の皆さん方は少なくともそうでした。
 
 
 # 今朝の感謝ｘ３
 
-* 毎年カルピスの新風味出してくださるカルピス株式会社さんありがとう。
-* ゴクゴク飲める安価な飲みものを開発してくださっている  
-  スジャータのめいらくさんありがとう。
-* ギリギリまでレジ袋何枚も無料でつけてくださる  
-  業務スーパーさんありがとう。
+* 映画『町田くんの世界』制作された皆様にありがとう。
+* 駅前簡易駐輪場運営の会社さんいつもありがとう。
+* ＰＢ黒酢飲料開発のイオンさんありがとう。よく飲んでます。
 
 
 # ToDo
