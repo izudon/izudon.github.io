@@ -1,8 +1,8 @@
 ---
 title: ""
 karadascan:
-  weight: 64.8
-  fat:    22.5
+  weight: 66.1
+  fat:    22.9
 wikimedia:
   file: 後龍大鵬風場.jpg
   cate: 6/6d
