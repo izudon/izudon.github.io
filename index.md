@@ -21,7 +21,7 @@ wikimedia:
 {% include amazon.md asin="4061385011" title="武器としての決断思考" %}
 
 * 自然言語処理のコーパスにと [糸井重里氏の Twitter](https://twitter.com/itoi_shigesato) を漁っていて発見。
-* 出版記念対談 [大人になったコペル君。](https://www.1101.com/n/s/takimoto_shukudai) おホビ日で公開。
+* 出版記念対談 [大人になったコペル君。](https://www.1101.com/n/s/takimoto_shukudai) ほぼ日で公開。
 * **[7月6日まで note で全文公開！](https://note.com/doourhomework/n/nb4572987819b)**
 
 
