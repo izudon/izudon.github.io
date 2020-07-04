@@ -37,6 +37,7 @@ wikimedia:
   クレジットカードや定期券も同様の事態になっていたことがある。  
   盗む奴って世の中にいなくならないってことだろう。  
   ただ、盗んだやつは罰せられろ。
+^
 * [刑務官８人に囲まれ　富田林逃亡の被告、判決にぼうぜん：朝日新聞](https://digital.asahi.com/articles/ASN736281N73PPTB00Y.html?iref=pc_ss_date)
 
 
