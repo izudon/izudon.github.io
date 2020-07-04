@@ -1,8 +1,8 @@
 ---
 title: ""
 karadascan:
-  weight: 65.7
-  fat:    22.9
+  weight: 65.5
+  fat:    22.3
 wikimedia:
   file: Woman doing laundry.jpg
   cate: 2/2a
