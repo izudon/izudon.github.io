@@ -1,30 +1,26 @@
 ---
 title: ""
 karadascan:
-  weight: 66.9
-  fat:    23.4
+  weight: 65.4
+  fat:    22.4
 wikimedia:
-  file: 男性老人を職質にかける警察官.jpg
-  cate: 4/4f
-  attr: 瀬田僚達 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)
+  file: Woman from Tajikistan with stroller.jpg
+  cate: d/d9
+  attr: Steve Evans from India and USA / CC BY (https://creativecommons.org/licenses/by/2.0)
 ---
 
-* 犯罪被害に対する認識が甘かったかなと思う。
-* 加害者には人間としての常識が欠落している手合いがいる。  
-  そういうのはもう２度とこの世に顔出して欲しくないと確かに思うわ。
+* 仕事に若干ながらも光明が見えてくると次に心配になるのが：
+  * オレは結婚できるのか？
+  * 子どもは授かるのか？
+* 結局、心配のタネは尽きない。
 
-
-# 昨日の風呂敷渡世
-
-* 風呂敷についてレジの人とちょっとした会話があり和んだ。
 
 
 # 今朝の感謝ｘ３
 
-* 豚バラ肉を安価に提供してくださっているスーパーさんありがとう。
-* QRコード決済のNW遅延を待ってくださったレジのお兄さんありがとう。
-* 焼きそばソースの代替レシピをまとめてくださっている  
-  クックパッドさんありがとう。
+* ジャム安売りのスーパーさんありがとう。
+* いつもお安い食パンのＰＢ提供のイオンさんありがとう。
+* 緑茶ティーバッグの宇治森徳さんありがとう！
 
 
 # ToDo
