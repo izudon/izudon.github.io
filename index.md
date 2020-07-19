@@ -1,34 +1,25 @@
 ---
 title: ""
 karadascan:
-  weight: 64.2
-  fat:    22.3
+  weight: 66.5
+  fat:    22.8
 wikimedia:
-  file: ISS-50 Soyuz MS-03 docked to Rassvet over Florida.jpg
-  cate: 1/1b
-  attr: NASA / Public domain
+  file: Setonaikai National Park, Great Seto Bridge - panoramio.jpg
+  cate: b/b6
+  attr: Yoshio Kohara / CC BY (https://creativecommons.org/licenses/by/3.0)
 ---
 
-{% include amazon.md asin="4480910840" title="ちくま科学評論選" %}
+# 夏ですから
 
-* 採録されたどの文章も読んで価値のある内容。
-* よくこれだけのものを揃えられたものと思う。
-* 相対性理論なんかもこなれてきてわかりやすい説明も開発されてきたん  
-  だなぁと思う。僕が中学生の頃、講談社のブルーバックスなんかを  
-  図書館で借りて片端から読みまくったけど結局わからなかった。  
-  この本にある説明の仕方だったらほぼ全員わかると思うもんなぁ。
-* 丸善ジュンク堂梅田店で購入し、  
-  隣のマクドナルドで７割方読んでしまった。
+* Go To キャンペーンなんてあろうとなかろうと旅行くらい行くわねぇ。
 
 
 # 今朝の感謝ｘ３
 
-* 『ちくま科学評論選』の編者の皆様ありがとう。  
-  数ある書籍の中からこれだけのものを揃える作業は  
-  相当大変だったんじゃないかと思います。
-* 昨日自転車で出かけた先である宝塚の皆様ありがとう。
-* 国道１７６号線の維持管理に関わっていらっしゃる皆様ありがとう。  
-  沿道の商店主の皆様などもありがとう。
+* 金券ショップさんありがとう。
+* 冷やかけうどんの丸亀製麺さんありがとう。
+* キャベツ安売りのダイエーさんありがとう。
+
 
 
 # ToDo
