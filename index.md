@@ -1,24 +1,24 @@
 ---
 title: ""
 karadascan:
-  weight: 66.5
-  fat:    22.8
+  weight: --.-
+  fat:    --.-
 wikimedia:
-  file: Setonaikai National Park, Great Seto Bridge - panoramio.jpg
-  cate: b/b6
-  attr: Yoshio Kohara / CC BY (https://creativecommons.org/licenses/by/3.0)
+  file: Ama and the Tako by Utagawa Kuniyoshi.jpg
+  cate: 9/98
+  attr: 歌川國芳 / Public domain
 ---
 
-# 夏ですから
+# 飲み屋の会話
 
-* Go To キャンペーンなんてあろうとなかろうと旅行くらい行くわねぇ。
+* ９割は出任せだわんね〜。
 
 
 # 今朝の感謝ｘ３
 
-* 金券ショップさんありがとう。
-* 冷やかけうどんの丸亀製麺さんありがとう。
-* キャベツ安売りのダイエーさんありがとう。
+* ボランティアガイドの方ありがとう。
+* 宿のご主人ありがとう。
+* 讃岐うどんその他飲食関係の皆様ありがとう。
 
 
 
