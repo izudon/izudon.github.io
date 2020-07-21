@@ -1,24 +1,29 @@
 ---
 title: ""
 karadascan:
-  weight: --.-
-  fat:    --.-
+  weight: 65.1
+  fat:    21.8
 wikimedia:
-  file: Ama and the Tako by Utagawa Kuniyoshi.jpg
-  cate: 9/98
-  attr: 歌川國芳 / Public domain
+  file: Green Turtle (Chelonia mydas) (8504162944).jpg
+  cate: 6/69
+  attr: Bernard DUPONT from FRANCE / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0)
 ---
 
-# 飲み屋の会話
+# 体脂肪率・減る
 
-* ９割は出任せだわんね〜。
+* 一昨日、昨日の両日にわたり、かなりの距離を自転車で走りまくってきた。
+* 結果的に体脂肪率が。  
+  23% 前後をうろうろしていたものが、初の 21% 台に（21.8 % ）
+^
+* 何かを削って運動の時間を作り出さなくてはならないのかな。
 
 
 # 今朝の感謝ｘ３
 
-* ボランティアガイドの方ありがとう。
-* 宿のご主人ありがとう。
-* 讃岐うどんその他飲食関係の皆様ありがとう。
+* 某ファミレスのかき氷作ってくださった方ありがとう。
+* レンタサイクルの面倒くさいお約束を面倒くさいことと知りつつも  
+  頑張って最後まで説明してくださった管理事務所のお姉さんありがとう。
+* 讃岐うどん関係者の皆様ありがとう。
 
 
 
