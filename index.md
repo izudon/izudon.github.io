@@ -1,29 +1,49 @@
 ---
 title: ""
 karadascan:
-  weight: 65.1
-  fat:    21.8
+  weight: 66.7
+  fat:    20.5
 wikimedia:
-  file: Green Turtle (Chelonia mydas) (8504162944).jpg
-  cate: 6/69
-  attr: Bernard DUPONT from FRANCE / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0)
+  file: Downtown Vancouver cloudy morning.jpg
+  cate: 6/6d
+  attr: Dago R Agacino / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)
 ---
 
-# 体脂肪率・減る
+# 晴れまへんなぁ
 
-* 一昨日、昨日の両日にわたり、かなりの距離を自転車で走りまくってきた。
-* 結果的に体脂肪率が。  
-  23% 前後をうろうろしていたものが、初の 21% 台に（21.8 % ）
+* 九州行ってやろうと思っていたけど雨降るっていうからやめたわ。
+
+
+# 操っている人がいる
+
+* ４月：[はんこのデジタル化「しょせんは民間の話」IT相 - 朝日新聞](https://digital.asahi.com/articles/ASN4G6D4CN4GUTFK00W.html)  
+  ｜ 一転
+* ６月：[竹本IT相「デジタル化進める」ハンコ議連会長辞任 - 朝日新聞](https://digital.asahi.com/articles/ASN6V5GNKN6VUTFK00G.html)
 ^
-* 何かを削って運動の時間を作り出さなくてはならないのかな。
+* 7/13 [ハンコ要りません「書面、対面、押印」原則見直しへ - ASCII.jp](https://ascii.jp/limit/group/ida/elem/000/004/019/4019430/)  
+  ｜ 見方が逆
+* 7/4 [どれだけ叩いても「脱ハンコ」が進まない根本原因 - diamond.jp](https://diamond.jp/articles/-/241962)
+
+----
+
+* この「社会」という複雑系をなんとか「制御」しようと  
+  四苦八苦している「危篤家」が、どうもいらっしゃる。
+* 自然を制御しようとするこの発想は紛れもなく西洋由来の発想だと思う。
+* こうした取り組みは概ね「複雑系からのカウンターアタック」により  
+  終焉するものと相場が決まってきている。
+  * '60s-'70s ベトナム戦争
+  * 2001 9.11 米同時多発テロ
+  * 2008 リーマンショック
+* 今回はどうだろうか。
+
 
 
 # 今朝の感謝ｘ３
 
-* 某ファミレスのかき氷作ってくださった方ありがとう。
-* レンタサイクルの面倒くさいお約束を面倒くさいことと知りつつも  
-  頑張って最後まで説明してくださった管理事務所のお姉さんありがとう。
-* 讃岐うどん関係者の皆様ありがとう。
+* 安否確認タオルのことを教えてくださったＸＸさんありがとう。
+* 魅力的な品揃えで昨日も今日も日々お客様を迎えておられる  
+  セブンイレブンさんありがとう。
+* 今日を休日にしてくださった政策関係の方ありがとう。
 
 
 
