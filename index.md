@@ -1,20 +1,39 @@
 ---
 title: ""
 karadascan:
-  weight: 66.6
-  fat:    22.8
+  weight: 64.2
+  fat:    22.2
 wikimedia:
-  file: Street piano in Cologne - www.the-pianist.nl.jpg
-  cate: 6/61
-  attr: Sergey Galyonkin / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0)
+  file: Bocchan train (坊ちゃん列車) - panoramio.jpg
+  cate: 9/9c
+  attr: osamu tanaka / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)
 ---
+
+# 中田敦彦の『坊ちゃん』
+
+{% include youtube.md v="OHtOjVrVvN0" title="中田敦彦の『坊ちゃん』" %}
+
+{% include youtube.md v="6mqsvpAoGAE" title="中田敦彦の『こころ』" %}
+
+* 時代の変化と共に滅びゆく価値観を、小説の登場人物に「託して」描いた  
+  作品という、ありそうでなかった切り口が新鮮かなと思う。
+* 折しも、近代資本主義的価値観が曲がり角を迎えようとしている現代。  
+  繰り返されてきた社会的価値観の変化が、今もまさに起きようとしている  
+  ところであり、これをを客観的な目で捉えるという意味において、  
+  見ておいて損はない動画のような気がした。
+^
+* 明日も多分 YouTube に言及します。
+^
+* [テレビのレギュラー７本辞めて YouTuber になったという中田](https://www.fujitv-view.jp/article/post-141792/)。
+* 本当の売りたい商品は有料のコミュニケーションサロンぽくて。  
+  YouTube はそのための撒き餌にするビジネスモデルのようだ・・・。
 
 
 # 今朝の感謝ｘ３
 
-* ネットを盛り上げてくださっている YouTuber の方々ありがとう。
-* 素敵なピアノ演奏を聴かせてくださっている YouTuber の方々ありがとう。
-* 時代の文化を創造し続けてくださっている YouTuber の方々ありがとう。
+* 新たなメディアに果敢に飛び込む YouTuber の方々にありがとう。
+* YouTuber を支える周辺スタッフの方々にもありがとう。
+* 小さなところには決して収まらない志を持った方々にありがとう。
 
 
 
