@@ -9,9 +9,8 @@ wikimedia:
   attr: Onagadoriオナガドリ / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)
 ---
 
-* 乗り継ぎのために訪れた駅なのに  
-  駅前を歩けばまちが形成されている。  
-  それがよかった。
+* 乗り継ぎのために訪れただけの駅なのに  
+  駅前を歩けばまちが形成されていた。
 
 
 # 今朝の感謝ｘ３
