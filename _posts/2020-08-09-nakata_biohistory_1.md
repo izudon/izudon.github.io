@@ -1,6 +1,10 @@
 ---
 title: "中田敦彦のエクストリーム偉人伝
 まとめ"
+wikimedia:
+  file: Capture de Jeanne.JPG
+  cate: 7/7f
+  attr: ジュール＝ウジェーヌ・ルヌヴー / Licence Ouverte
 ---
 
 # スティーブ・ジョブズ
