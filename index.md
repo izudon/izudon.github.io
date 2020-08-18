@@ -1,31 +1,39 @@
 ---
 title: ""
 karadascan:
-  weight: 65.9
-  fat:    21.2
+  weight: 66.3
+  fat:    21.5
 wikimedia:
-  file: Kuroishi Yakisoba01.JPG
-  cate: c/c5
-  attr: 221.20 / Public domain
+  file: 東芝ステレオダブルラジオカセット SUGAR RT-SW3.JPG
+  cate: a/aa
+  attr: FMVBIBLO / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)
 ---
+
+# 涼しい朝
+
+* 昨日、一昨日は地獄の暑さだったが、  
+  今朝は涼しい。
+* 朝のＦＭ８０２もさながら夏の終わりのソング特集。
+  * 『夏の終わり』森山直太郎
+  * 『風になる』つじあやの
+  * 『風になりたい』THE BOOM
+  * 『夏空グラフィティ』いきものがかり
+  * 『君がいた夏』Mr. Children
 
 
 # 風呂敷渡世
 
-* 夕飯は焼きそばにする。
-
-[![](http://images-jp.amazon.com/images/P/B085SJ3YH2.09.MZZZZZZZ)](https://amazon.jp/dp/B085SJ3YH2)
-[![](http://images-jp.amazon.com/images/P/B0839B6BJJ.09.TZZZZZZZ)](https://amazon.jp/dp/B0839B6BJJ)
-
-* 果汁と炭酸と焼酎と混ぜただけのその辺のチューハイとは違って、  
-  うまいチューハイというのがあるんだなと思い知った。
+* 思わせぶりっこな眼前展開。
+* 書きたいことも色々あるが整理するだけの時間がない。
+* 嘘ばかり言う身内がいる。
 
 
 # 今朝の感謝ｘ３
 
-* 無料通話の楽天モバイルさんありがとう。
-* そば玉を売ってくださっているスーパーさんありがとう。
-* もやし３０円で売ってくださっているダイエーさんありがとう。
+* とんかつソースいつも大安売りのスーパーさんありがとう。
+* 夏の塩分補給ドリンクいつも大安売りのスーパーさんありがとう。
+* 気候に応じた心地よい音楽をいつも奏でてくれるＦＭ８０２さん  
+  いつもありがとう。
 
 
 # ToDo
