@@ -1,8 +1,8 @@
 ---
 title: ""
 karadascan:
-  weight: 65.9
-  fat:    20.4
+  weight: 66.8
+  fat:    20.5
 wikimedia:
   file: 香川県直島町 おやじの海 碑 - panoramio.jpg
   cate: 1/1d
