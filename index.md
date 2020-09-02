@@ -1,8 +1,8 @@
 ---
 title: ""
 karadascan:
-  weight: 66.3
-  fat:    20.6
+  weight: 66.0
+  fat:    21.0
 wikimedia:
   file: Battle of Menin Road - wounded at side of the road.jpg
   cate: a/ad
