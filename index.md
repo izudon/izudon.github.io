@@ -1,20 +1,30 @@
 ---
 title: ""
 karadascan:
-  weight: 66.0
-  fat:    21.0
+  weight: 64.6
+  fat:    21.6
 wikimedia:
-  file: ラジオ 2016 (24102385381).jpg
-  cate: 1/14
-  attr: Hiro - Kokoro☆Photo / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0)
+  file: Route 264 Higashi-icho-dori in Matsubara, Saga.jpg
+  cate: 8/86
+  attr: Pekachu / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)
 ---
 
-# 手紙を読む元アナウンサー
+# 不安
 
-{% include youtube.md v="wWg5rswFltE" title="aaa" %}
+* 辞めさせやすい従業員から順に辞めさせていっているのではないか。  
+  うちの会社。
+* もちろん想像の域を出ない見方ではあるが。
 
-* 画面外から司会されているのが菅田将暉の発話で壮口彰久とわかる。
-* ラストの手紙の朗読はやっぱり元ニッポン放送アナウンサーだなぁ。  
-  那須恵理子アナウンス部長（当時）の指導の賜物かもしれない。
-* 元ブロードバンドニッポン！の壮口隊長がこういう時期に、  
-  オンラインミーティングの司会されるのも何かの縁なのかもなぁ・・・。
+
+# 戦争回避
+
+{% include amazon.md asin="B087CP71H1" title="ジム・ロジャーズ" %}
+
+* 戦争の可能性があると、相変わらず、思わずにはいられない。  
+  回避しなければいけない。
+
+
+# 指示されたいシリーズ
+
+{% include amazon.md asin="B01MXUMFTA" title="金" %}
+{% include amazon.md asin="B089NK1W9H" title="スペースキー" %}
