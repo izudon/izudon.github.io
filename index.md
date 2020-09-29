@@ -20,6 +20,8 @@ wikimedia:
 * 維新の言ってることが比較的正しいと思う。
 
 
+{% include youtube.md v="oedrFrdfGIs" title="三橋貴明ｘ藤井聡" %}
+
 {% include youtube.md v="f-D6MuNk8MU" title="山本太郎演説" %}
 
 {% include youtube.md v="Y4x73ha890U" title="藤田あきら都構想説明会" %}
