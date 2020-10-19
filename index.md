@@ -4,12 +4,39 @@ karadascan:
   weight: 66.3
   fat:    21.5
 wikimedia:
-  file: Osaka Mayoral Election ballot box 20051127.jpg
-  cate: a/aa
-  attr: MASA / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)
+  file: In Old Oklahoma (1943) 6.jpg
+  cate: f/f4
+  attr: United Artists, Public domain, via Wikimedia Commons
 ---
 
+# 狂おしいくらい
+
+* 狂おしいくらいにやりたくなること。  
+  もうずっとやっていなくて、よく考えればいつ以来かと思うようなこと。
+* ともに泣き、ともに怒り、ともに笑うということ。  
+  よろこびや、かなしみを、わかちあうということ。
+
+
 # 大阪都構想（住民投票は１１月１日）
+
+## Oct. 19th
+
+* [最新の世論調査](https://www.asahi.co.jp/abc-jx-tokoso/)によれば賛成が持ち直してきている。
+* 大阪市は解体されることになるだろう。  
+  自分はたぶん反対票を投じるけど。
+* 予定していたインフラ（高速道路等）を全て作って終わりになりそうな。  
+* 「お金を稼ぐ」話をしなくて大丈夫か。
+* どうやればここに人やモノが集まるかを考えなくていいのか。
+
+
+## Oct. 18th
+
+{% include amazon.md asin="4899920725" title="都構想の真実" %}
+{% include amazon.md asin="B08K8G8KNQ" title="東 徹" %}
+
+* 大型書店部門別ランキングの１位と６位。
+* 棚に面出しされた束の中でこの２冊だけがえぐられるように凹んでいる。  
+  よく出ているんだなと実感する。
 
 
 ## Oct. 17th
