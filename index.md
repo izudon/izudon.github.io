@@ -4,12 +4,34 @@ karadascan:
   weight: 64.7
   fat:    22.2
 wikimedia:
-  file: Kani Doraku 50 years DSCN2793 20120205.JPG
-  cate: 2/24
-  attr: Ogiyoshisan, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
+  file: レジ係り (3492797029).jpg
+  cate: c/cc
+  attr: SnippyHolloW, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons
 ---
 
 # 大阪都構想（住民投票は１１月１日）
+
+## Oct. 23rd
+
+{% include youtube.md v="BHt32bB1Dqw" title="中田敦彦 消費税" %}
+{% include amazon.md asin="B0856XQXYC" title="あさみ 消費増勢" %}
+
+{% include amazon.md asin="4828422099" title="あさみ 日本経済" %}
+{% include amazon.md asin="4299007263" title="あさみ ＭＭＴ" %}
+{% include amazon.md asin="B06XG5ZRG4" title="池上彰 民主主義" %}
+
+* 背景として、多様性に重きを置かない、脆弱な日本の民主主義と、  
+  その共犯者であるメディアという問題も、ありそうなんだけどなぁ・・・。
+* 藤井聡を知らなかったらやばかった。  
+  地上波テレビとか主要５紙には一切出てこない。  
+  YouTube の中田敦彦のチャネルから書籍に飛ばなかったら、  
+  今でもまだ知らなかったかもしれない。
+* うちのお袋なんか地上波（主にラジオ）しか聴いていない。  
+  行動半径は家から徒歩圏内だし、本屋に行く習慣もない。  
+  ガラケーだしインターネットもやってない。  
+  ７０歳を超えてくるとどういう心境になるのか未経験なので  
+  分からないけど、こういう状況はどんなもんなのかなぁ。
+
 
 ## Oct. 22nd
 
