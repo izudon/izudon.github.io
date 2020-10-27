@@ -11,6 +11,13 @@ wikimedia:
 
 # 大阪都構想（住民投票は１１月１日）
 
+## Oct. 28th - 単純な話ではない
+
+{% include youtube.md v="ar5VrsuBxRY" title="都構想生討論第２弾５０分" %}
+
+* [「大阪都構想」賛成の方にこそ知ってほしい「二重行政の真実」](https://gendai.ismedia.jp/articles/-/76522)
+
+
 ## Oct. 27th - 官僚社会
 
 {% include amazon.md asin="B08LVHHY6V" title="古賀茂明 新・官僚の責任" %}
