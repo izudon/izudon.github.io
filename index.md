@@ -181,7 +181,8 @@ wikimedia:
 
 ### 藤井聡氏のインフラ論を調べる
 
-{% include amazon.md asin="4907313063" title="モビリティ・マネジメント" %}
+{% include amazon.md asin="4761526017" title="モビリティ・マネジメント" %}
+{% include amazon.md asin="B07R3X4SCH" title="インフラ・イノベーション" %}
 {% include amazon.md asin="B01935KHSM" title="超インフラ論" %}
 {% include amazon.md asin="B07DVJPRF2" title="クルマなくすと地方は甦る" %}
 
