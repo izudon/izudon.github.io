@@ -4,12 +4,35 @@ karadascan:
   weight: 64.7
   fat:    22.2
 wikimedia:
-  file: Okubo fusamatsu2.jpg
-  cate: c/c4
-  attr: 投稿者が出典書籍より取り込み, Public domain, via Wikimedia Commons
+  file: Jaguar (Panthera onca palustris) male Rio Negro 2.JPG
+  cate: f/f8
+  attr: Charles J Sharp, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, ウィキメディア・コモンズ経由で
 ---
 
 # 大阪都構想（住民投票は１１月１日）
+
+## Oct. 31st - ＡＢＣ（朝日放送）の健全性
+
+{% include youtube.md v="9e57EGkuZms" title="木原解説FINAL" %}
+
+* こういう時だからこそ、公正中立を守り偏りなく報道しようとする、  
+  情報インフラとしてのＡＢＣの健全性になんか安心感を覚えたわ。
+* 東京のメディアみたいなアイドル的存在は決して登場はしないけど、  
+  「信頼」の二文字が画面の左隅に座っている感じがしたわ。
+
+### ウチにもチラシ届いた
+
+[![チラシ](https://osaka-onecity.com/wp-content/uploads/2020/10/A4%E3%83%81%E3%83%A9%E3%82%B7_5_a.png)](https://osaka-onecity.com/archives/1154)
+
+うまいこと言うてんな〜
+
+* 選挙管理委員会？のポスターがヒョウなのに絡めて「反対ヒョウ」。
+* 市民サービスも経済がうまくいくかどうか次第である点を捉えて、  
+  万博・カジノの失敗の可能性のＰＲ。
+* 裏面は府から財政を配る特別区制を捉えて「おこづかい制」と表現。
+
+この辺のセンスはやっぱ大阪、都会だけあって一枚上手やと思う神戸出身者。
+
 
 ## Oct. 29th - どちらに転んでも大阪は悪くならない
 
