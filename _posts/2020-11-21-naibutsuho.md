@@ -6,7 +6,7 @@ wikimedia:
   attr: minato kaidou from hiroshima Japan, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons
 ---
 
-# 内部告発するとどうなるかがわかる動画
+# 内部通報するとどうなるかがわかる動画
 
 {% include youtube.md v="SKGXVox6iWI" title="オリンパス 濱田正晴 内部通報" %}
 <!-- 中村雅人 弁護士 -->
