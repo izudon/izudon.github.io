@@ -1,10 +1,20 @@
 ---
 title: ""
 wikimedia:
-  file: Yokeback armchair and painting table, Ming dynasty, Metropolitan Museum of Art.jpg
-  cate: d/d9
-  attr: Wmpearl / Public domain
+  file: Taipei, Taiwan Skyline 2019.jpg
+  cate: 1/1e
+  attr: 台湾でSamuel in Taiwan, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons
 ---
+
+# 池上彰の世界の見方
+
+{% include amazon.md asin="B01MQQBVJ2" title="池上彰 中国・香港・台湾" %}
+{% include amazon.md asin="B07CWM4CS9" title="池上彰 朝鮮半島" %}
+{% include amazon.md asin="B07RGPHVFV" title="池上彰 東南アジア" %}
+
+* 日本の全国民が読むべき本だと思う。  
+  こんなことにまるで興味がないごく一般の人にこそ読んでほしい。
+
 
 # 気のせいに見せかけた空き巣
 
@@ -17,11 +27,12 @@ wikimedia:
   身勝手な考えでもお持ちなのだろうか（空き巣に敬語）。
 * 警察は相手にしてくれない可能性が高い（気のせいにされる）。  
   実際届け出たこともあるがやはり相手にはしてもらえなかった。  
-  （収穫がなかったわけではないが相手にはしてもらえていない）。
+  （収穫がなかったわけではないが相手にはしてもらえなかった）。
 * それが、ここ数日また復調してきていて、色々盗まれている。  
-  空き巣以外にもいくつかのフェイクを仕掛けられてしまっていて、  
-  本来必要のない気苦労をさせられたようなものだからとても、  
-  精神的なタフさを試されてしまっているというか。
+  空き巣以外にもいくつかのフェイクも入れられている。  
+  こういうので、本来必要のない気苦労が重なり、  
+  精神的なタフさが試されている。  
+  （試していただかなくてもべつにいいわけだが）。
 
 
 # 戦争にならないように
