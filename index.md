@@ -6,6 +6,13 @@ wikimedia:
   attr: 台湾でSamuel in Taiwan, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons
 ---
 
+# できもしないことを
+
+* できるかどうかもわからないものをできると大見得を切って請負い、  
+  できないと決まってから相手の納得を得るべくあの手この手で  
+  もっともらしく取ri繕おうというのは、ヤクザのやることかなと思う。
+
+
 # 池上彰の世界の見方
 
 {% include amazon.md asin="B01MQQBVJ2" title="池上彰 中国・香港・台湾" %}
