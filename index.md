@@ -6,6 +6,29 @@ wikimedia:
   attr: 台湾でSamuel in Taiwan, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons
 ---
 
+# 戦略より強いのは企業文化
+
+* Salesforce といえば CRM の不動のリーダというイメージですが、  
+  意外にも同社は社会貢献への意識によって成功していっていたようです。
+
+{% include youtube.md v="BZ-MQiuPPI4" title="中田敦彦 Salesforce 1" %}
+{% include amazon.md asin="B08BL5X284" title="trail blazer" %}
+
+{% include youtube.md v="40ZqzHWDZQg" title="中田敦彦 Salesforce 2" %}
+
+* 既に事業に成功していた創業者のマーク・ベニオフは、ＬＧＢＴＱ問題に  
+  対して何らかの姿勢を示してほしいという従業員からの求めに気付く。  
+  －＞ Twitter で発信 ー＞ 他社も追随する。
+* 以後、男女差別や、人種・移民問題等へも旗色鮮明にせざるを得なくなり、  
+  社内改革を並行して進める羽目になる。
+* ただこのことによって（つまりおそらくは「裏表なしに公平な会社」という  
+  認知が世間に広まったことによって）優秀な人材が集まるようになり、  
+  いくつものビッグプロジェクトが立ち上がり、成功していった。  
+  （つまり結果的にこれで良かった）。
+* ピーター・ドラッカーは「企業文化は戦略に勝る」と言ったが、  
+  間違いではなかった、というお話でした。
+
+
 # やばいんちゃう？
 
 {% include amazon.md asin="B015ZH68SA" title="官製経済" %}
