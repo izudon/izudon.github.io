@@ -6,6 +6,10 @@ wikimedia:
   attr: 台湾でSamuel in Taiwan, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons
 ---
 
+* 頼んでもないのに人のこと訓練してやろうと接近してくる人間からは、  
+  離れなければいけないのだと俺は思っている（実際いるから）。
+
+
 # 学んでみないとわからないもの
 
 {% include amazon.md asin="B08MF877HP" title="オードリー・タン" %}
@@ -13,8 +17,7 @@ wikimedia:
 {% include amazon.md asin="B0856S7SH1" title="NHK　まいにち中国語" %}
 {% include amazon.md asin="B01MQQBVJ2" title="池上彰 中国・香港・台湾" %}
 
-* 勉強しないとわからないことってあるもんやなと思う。  
-  （勉強してないのにわかったふうな人の気持ちはわからないんだけど）
+* 勉強しないとわからないことってあるもんやなと思う。
 * 日本人全員この機会にいっかい学んどくべきじゃないかと思う。
 
 
