@@ -6,7 +6,47 @@ wikimedia:
   attr: M.Minderhoud, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons
 ---
 
-# 初回 - 収録 '20/11/16 公開 11/21
+# 2020.12.19 公開 - 第２回
+
+## 本編 前後編
+
+{% include youtube.md v="pdaSg5kkp8c" title="第２回　前編" %}
+
+{% include youtube.md v="udaAFc5ahuo" title="第２回　後編" %}
+
+
+## 番組内で決まったコラボ動画
+
+{% include youtube.md v="2avez9fpdpw" title="プペル主題歌コラボ動画" %}
+
+
+## えんとつ町のプペル 各種ＭＶ
+
+### 藤森慎吾によるラップ
+
+{% include youtube.md v="R7wXJC8twHg" title="プペル 藤森慎吾によるラップ" %}
+
+### HYDE による HALOWEEN PARTY MV
+
+{% include youtube.md v="StVsfO0lVok" title="HALLOWEEN PARTY " %}
+
+### akane によるプペル主題歌振付
+
+{% include youtube.md v="Rihe2JOyLQA" title="プペル 藤森慎吾によるラップ" %}
+
+
+## 反省会＆予告＆ゲストオファー
+
+{% include youtube.md v="-Jr31JA91Ik" title="第１回反省会" %}
+
+{% include youtube.md v="c50gp_Qkz_U" title="ゲストオファー動画１" %}
+
+{% include youtube.md v="iyD5-Jjekq8" title="ゲストオファー動画２" %}
+
+* 最終的にさんまさんにオファー。
+
+
+# 2020.11.21 公開 - 第１回
 
 ## 本編 前後編
 
