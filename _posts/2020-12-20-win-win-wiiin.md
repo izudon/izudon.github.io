@@ -1,9 +1,13 @@
 ---
 title: Win-Win-Wiiin
 wikimedia:
-  file: Champion 08 2006 105.jpg
-  cate: c/c2
-  attr: M.Minderhoud, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons
+  file: Winning Team (6078681751).jpg
+  cate: f/ff
+  attr: National Library of Ireland on The Commons, No restrictions, via Wikimedia Commons
+wikimedia:
+  file: Roie Galitz winning a 1st prize in Siena.jpg
+  cate: c/c3
+  attr: Roie Galitz, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 ---
 
 # 2020.12.19 公開 - 第２回
@@ -13,6 +17,31 @@ wikimedia:
 {% include youtube.md v="pdaSg5kkp8c" title="第２回　前編" %}
 
 {% include youtube.md v="udaAFc5ahuo" title="第２回　後編" %}
+
+
+### ヨシモトが取り憑いている
+
+前回と比べ吉本興業がチラ見えする場面が増えている。
+
+* 西野と吉本の大崎会長が仲がいい（大崎は西野のサロンメンバー）。
+* SILKHAT という吉本運営の直営業サイトを西野がつくっていた。
+* 西野原作の映画プペルの制作が吉本興業。
+
+というわけで、西野は吉本を、吉本も西野を利用して、いろいろやっていたと。
+
+（視聴者も気づいたと思う）
+
+* あっちゃんの「入江さんも宮迫さんも悪くない。構造的な闇なんだ！」  
+  という叫びで前編が終わる。後編がそれを繰り返して始まり、計２回、  
+  視聴者はこれを見ることになる。・・・そうこのメッセージこそ、  
+  吉本興業としても声を大にして言いたかったのではないだろうか。  
+* 吉本興業として言えないから、セミ自由人ぶったあっちゃんなんかに、  
+  こういう形で言ってもらっていることが吉本の利益にもなっている。  
+* 吉本は隠れスポンサーとしてきっとこの番組は応援し続けるのだろう。
+
+つまり、吉本はあっちゃんを、あっちゃんも吉本を利用してやっていると。
+
+（ここは気づいただろうか）
 
 
 ## 番組内で決まったコラボ動画
