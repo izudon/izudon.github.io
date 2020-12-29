@@ -6,17 +6,14 @@ wikimedia:
   attr: 台湾でSamuel in Taiwan, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons
 ---
 
-# 勉強になるな〜と
+# 目に見えないものたくさんあるよ
 
-{% include youtube.md v="CumEqAapb5o" title="中田敦彦オンラインサロンを語る" %}
+{% include youtube.md v="Si6XN-4KbQg" title="" %}
 
-* オンラインサロンあるあるというかなんというか・・・  
-  経験してきたんだなーあっちゃんとか思いながらうんうんと聞いていたら.
-
-
-## なんだよこれ
-
-{% include youtube.md v="WuJOBVst2ls" title="オリラジ吉本卒業" %}
+* 共演者がとつぜん神隠しに遭うテレビ業界。  
+  （期待を持たせておいてガッカリ感を倍加させている？）
+* 事務所の統制を取るためにそれを乱すものは干すという処分をしていそう。  
+  （少なくともそう見えるように外の世界を見せなくしていそう）
 
 
 # 学んでみないとわからないもの

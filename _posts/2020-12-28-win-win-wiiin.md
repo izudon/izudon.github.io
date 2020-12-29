@@ -10,6 +10,36 @@ wikimedia:
   attr: Roie Galitz, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 ---
 
+# 2020.12.28 吉本卒業会見
+
+{% include youtube.md v="WuJOBVst2ls" title="オリラジ吉本卒業 前編" %}
+
+{% include youtube.md v="_9oeOpDu8cQ" title="オリラジ吉本卒業 後編" %}
+
+{% include youtube.md v="wAnxEYWGLtI" title="卒業会見 舞台裏 中田" %}
+
+{% include youtube.md v="KGwBLtZ4k3U" title="卒業会見 舞台裏 藤森" %}
+
+## 先に独立した手越祐也と
+
+{% include youtube.md v="6edYmntbk7I" title="藤森手越ドライブトーク" %}
+
+{% include youtube.md v="Si6XN-4KbQg" title="藤森手越ぶっちゃけトーク" %}
+
+## コンビトーク
+
+{% include youtube.md v="vgrlFXjgoKk" title="オンラインサロンを語る" %}
+
+* 贈り物の話
+* 地方の親やユニクロの話
+* 芸人コラボの話
+
+{% include youtube.md v="CumEqAapb5o" title="中田敦彦オンラインサロン" %}
+
+* Win-Win-Wiiin の話
+* オンラインサロンの運営の話
+
+
 # 2020.12.19 公開 - 第２回
 
 ## 本編 前後編
@@ -73,6 +103,17 @@ wikimedia:
 {% include youtube.md v="iyD5-Jjekq8" title="ゲストオファー動画２" %}
 
 * 最終的にさんまさんにオファー。
+
+
+## LOCONDO 社長びっくり
+
+{% include youtube.md v="XZRkRp9DQys" title="スポンサー失格？" %}
+
+* ゲストオファー先として元 ZOZO の前澤友作氏の名前が出て社長びっくり。
+* YouTube でもスポンサー配慮の必要なことが世間にバレる。
+* テレビクオリティのものをクラウドファウンディング的な手法で作っている  
+  ことを粋に感じてのスポンサーへの名乗りだったらしい。
+* [件のツィートはこちら](https://twitter.com/yusuke_tanaka/status/1338843893379420167)。
 
 
 # 2020.11.21 公開 - 第１回
