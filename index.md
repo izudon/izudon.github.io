@@ -26,6 +26,7 @@ wikimedia:
 <!-- {% include amazon.md asin="4834000109" title="いやいやえん" %} -->
 
 
+
 # 学んでみないとわからないもの
 
 {% include amazon.md asin="B08MF877HP" title="オードリー・タン" %}
