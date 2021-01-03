@@ -7,6 +7,33 @@ wikimedia:
 ---
 <!-- {% include amazon.md asin="4834000109" title="いやいやえん" %} -->
 
+# 完敗
+
+{% include amazon.md asin="4798619051" title="台北歴史地図散歩" %}
+{% include amazon.md asin="B08K8YDYV8" title="au オードリー・タン" %}
+{% include amazon.md asin="4767824346" title="台湾レトロ建築案内" %}
+{% include amazon.md asin="4767828406" title="台湾 路地裏名建築さんぽ" %}
+
+* 日本が完全に負けているのはこれどういったわけなんだろうか。  
+  文創はなぜ台湾にだけ現れたんだろうか。
+
+
+# 大晦日頃に揃って出た２動画
+
+{% include youtube.md v="gji2HaEFYqc" title="オリラジ屋外サウナ" %}
+
+{% include youtube.md v="5R3g3EnNM4A" title="キンコンコンビトーク" %}
+
+* この２組はほんと激動の２０２０だった。  
+  こうやって振り返れるってのは羨ましい。
+
+
+## 年明けに出た
+
+{% include youtube.md v="UQMgQ2NXpnk" title="５年後の夢" %}
+
+* ちゃんと見ておこう。
+
 
 # 指準
 
