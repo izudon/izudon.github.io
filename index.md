@@ -58,25 +58,6 @@ wikimedia:
 
 
 
-# 台湾を学んでみる
-
-{% include amazon.md asin="4798619051" title="台北歴史地図散歩" %}
-{% include amazon.md asin="B08K8YDYV8" title="au オードリー・タン" %}
-{% include amazon.md asin="4767824346" title="台湾レトロ建築案内" %}
-{% include amazon.md asin="4767828406" title="台湾 路地裏名建築さんぽ" %}
-
-* 日本が完全に負けているのはこれどういったわけなんだろうか。  
-  文創はなぜ台湾にだけ現れたんだろうか。
-
-{% include amazon.md asin="B08MF877HP" title="オードリー・タン" %}
-{% include amazon.md asin="B08LNVDZVW" title="日本人が知りたい台湾人" %}
-{% include amazon.md asin="B0856S7SH1" title="NHK　まいにち中国語" %}
-{% include amazon.md asin="B01MQQBVJ2" title="池上彰 中国・香港・台湾" %}
-
-* 勉強しないとわからないことってあるもんやなと思う。
-* 日本人全員この機会にいっかい学んどくべきじゃないかと思う。
-
-
 # 影響力を持つとメディアは囲い込まれる
 
 * 『しくじり先生』もよしもとの広報宣伝番組として巧妙に囲い込まれた。
