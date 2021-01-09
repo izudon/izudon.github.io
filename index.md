@@ -8,7 +8,7 @@ wikimedia:
 <!-- {% include amazon.md asin="4834000109" title="いやいやえん" %} -->
 
 
-# YouTube で生きている人の生活術
+# YouTuber の 生活術
 
 * 自分が今後 YouTube で食って行きたいとかそういう話ではない。
 * 結果的に、ラファエルさんを軸にして回すことでいろいろ知れた。
