@@ -160,13 +160,11 @@ main{
 /*----- サイドバー -----*/
 aside{
 
-    a.button, h2.button a{
+    a{
 	color: white;
 	text-decoration: none;
-	border-color: black;
-	border-style: solid;
     }
-    a.button:hover, h2.button a:hover{
+    a:hover{
 	background-color: #666;
     }
     ul{

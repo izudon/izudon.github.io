@@ -137,13 +137,15 @@
 	<div class="wiki-updates">
 
 	  <!-- title -->
-	  <h2><a class="button" href="https://github.com/izudon/izudon.github.io/wiki/">Wiki</a></h2>
+	  <h2 class="button"
+	      ><a href="https://github.com/izudon/izudon.github.io/wiki/"
+		  >Wiki</a></h2>
 
 	  <!-- items -->
-	  <ul>
+	  <ul class="button">
 	    {% for wiki in site.data.wiki limit:4 %}
 	    <li>
-	      <a class="button" href="https://github.com/izudon/izudon.github.io/wiki/{{ wiki.name | url_encode }}">
+	      <a href="https://github.com/izudon/izudon.github.io/wiki/{{ wiki.name | url_encode }}">
 		<div class="date">{{ wiki.date }}</div>
 		<h3>{{ wiki.name }}</h3>
 	      </a>
@@ -159,7 +161,7 @@
 	<!-- Site Updates -->
 	<div class="site-updates">
 
-	  <h2 class="button"
+	  <h2 class="button-block"
 	      ><a href="{{ "/archive.html" | prepend: site.baseurl }}"
 		  >Archive</a>
 	    <small>/
@@ -168,18 +170,17 @@
 	    </small>
 	  </h2>
 
-	  <ul>
+	  <ul class="button">
 	    {% for post in site.posts limit:15 %}
 	    <li>
-	      <a class="button" href="{{ post.url | prepend: site.baseurl }}">
+	      <a href="{{ post.url | prepend: site.baseurl }}">
 		<div class="date">{{ post.date | date: "%Y-%m-%d" }}</div>
 		<h3>{{ post.title }}</h3>
 	      </a>
 	    </li>
 	    {% endfor %}
 
-	    <li><a class="button"
-		   style="text-align: right; padding-right: 0.75em; "
+	    <li><a style="text-align: right; padding-right: 0.75em; "
 		   href="{{ "/archive.html" | prepend: site.baseurl }}"
 		   ><h3>more...</h3></a></li>
 
