@@ -123,6 +123,7 @@ main{
 	/* テーブル */
 	table{
 	    border-collapse: collapse;
+	    margin: 0.75rem 0 0.75rem 1.5rem;
 	    th, td{
 		padding: 0.3em 0.5em;
 		border: 1px solid #ccc;
@@ -159,14 +160,13 @@ main{
 /*----- サイドバー -----*/
 aside{
 
-    a.button{
+    a.button, h2.button a{
 	color: white;
 	text-decoration: none;
 	border-color: black;
 	border-style: solid;
     }
-    a.button:hover{
-	border-color: #999;
+    a.button:hover, h2.button a:hover{
 	background-color: #666;
     }
     ul{
