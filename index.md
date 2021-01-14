@@ -8,6 +8,21 @@ wikimedia:
 <!-- {% include amazon.md asin="4834000109" title="いやいやえん" %} -->
 
 
+# アジア近代史への集団免疫をtukeru
+
+{% include amazon.md asin="4639026390" title="台湾高校歴史教科書" %}
+{% include amazon.md asin="B07RGPHVFV" title="池上彰の世界の見方 東南アジア" %}
+{% include amazon.md asin="B071ZZ99PM" title="物語　シンガポールの歴史" %}
+
+{% include youtube.md v="T-B2HXg36VQ" title="出口汪 歴史を武器に" %}
+
+* 日本を含めたアジア近代史への理解（免疫）がないことによって、  
+  政治経済のニュースを正しく理解できていないことってとても多そうだ。
+* 新型コロナウィルスへの集団免疫をつけようとしている国にあるように、  
+  アジア近代史への理解も私たちは集団免疫としてつけなければいけない  
+  ような気がしてきた。
+
+
 # 禁止大国の是非
 
 {% include youtube.md v="YgffV9OvhNI" title="禁止大国ニッポン" %}
