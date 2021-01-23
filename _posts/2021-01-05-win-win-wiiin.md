@@ -35,18 +35,14 @@ wikimedia:
 
 ## コンビトーク
 
-{% include youtube.md v="vgrlFXjgoKk" title="オンラインサロンを語る" %}
+{% include youtube.md v="umbbfAyFHgY" title="" %}
+〉4/4: 尊敬する芸人
 
-* 贈り物の話
-* 地方の親やユニクロの話
-* 芸人コラボの話
+* 芸人の話
+* ならず者は俺（中田）がやるから。
 
-{% include youtube.md v="CumEqAapb5o" title="中田敦彦オンラインサロン" %}
-
-* Win-Win-Wiiin の話
-* オンラインサロンの運営の話
-
-{% include youtube.md v="UQMgQ2NXpnk" title="５年後の夢" %}
+{% include youtube.md v="UQMgQ2NXpnk" title="" %}
+〉3/4: 独立５年後の夢
 
 * オンラインサロンの運営の話。  
   あっちゃん曰く：
@@ -57,6 +53,19 @@ wikimedia:
 * すごい境地だなと思って思わず『リー・クアンユー回顧録』を、  
   上巻２万５千円もするのに購入した。  
   （図書館は予約が１０件以上ありいつ見られるかわかったもんじゃない）。
+
+{% include youtube.md v="CumEqAapb5o" title="" %}
+〉2/4: Win-Win-Wiiin
+
+* Win-Win-Wiiin の話
+* オンラインサロンの運営の話
+
+{% include youtube.md v="vgrlFXjgoKk" title="" %}
+〉1/4: 芸人コラボ
+
+* 贈り物の話
+* 地方の親やユニクロの話
+* 芸人コラボの話
 
 
 ## たかまつなながヨロコんでる
