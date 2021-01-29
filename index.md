@@ -24,6 +24,16 @@ wikimedia:
 {% include amazon.md asin="B002QV1H8K" title="ディア・ドクター" %}
 
 
+## "ストーリーテリングだと思う"
+
+{% include youtube.md v="w52jFrhNbhs" title="" %}
+
+* 「中田敦彦のYouTube大学」が
+  「[間違いが多い](https://logtube.jp/entertainment/59325)」と、  
+  各方面から叩かれたときに、  
+  茂木健一郎しが擁護したときのコメントがこうであった。
+
+
 # コンテンツ遷移の方程式
 
 {% include youtube.md v="AfBMi9zPlEQ" title="社会主義と資本主義" %}
@@ -34,7 +44,12 @@ wikimedia:
   32歳まで（ヤンチャ）48歳まで（教養）以後（政治と医療）
 
 
-# 先生同士の会話って独特の面白さがある
+# 先生同士の会話って面白いわ
+
+知識売り歩いて生活している者同士の真剣な絡みだから。
+
+
+## 社会主義と資本主義
 
 {% include youtube.md v="pRH27p-Ib1c" title="社会主義と資本主義" %}
 
@@ -48,12 +63,16 @@ wikimedia:
   現実の歴史や政治と結びつけて考えてしまわない方がいい。
 
 
+## 格差
+
 {% include youtube.md v="y2OrXouUg_g" title="格差" %}
 
 * 狩猟採取の時代から、農耕牧畜の時代（貯蓄ができる時代）へ。  
   強い人が偉い時代から、頭の良い人やコツコツできる人が偉い時代へ。  
   その瞬間から、格差が始まった。
 
+
+## シリア難民
 
 {% include youtube.md v="0X4sSiwCj_c" title="シリア難民とは" %}
 
