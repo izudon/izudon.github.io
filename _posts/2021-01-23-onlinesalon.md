@@ -110,7 +110,26 @@ wikimedia:
 {% include youtube.md v="h0VoYo41454" title="授業２" %}
 〉2020.12.02
 
-### 中田敦彦のトーク（配信から）
+
+## NewsPicks
+
+{% include youtube.md v="i40NO4OADGM" title="西野 中田 箕輪" %}
+
+
+## ホリエモン
+
+{% include youtube.md v="6XIHrFlhXf4" title="ホリエモンチャンネル" %}
+
+## 一般の方
+
+{% include youtube.md v="haXNA228EoE" title="カッキー" %}
+〉2020.06.12
+
+
+
+# 中田敦彦のトーク（2nd YouTube から）
+
+## 2nd YouTube
 
 {% include youtube.md v="Otv1LnsiwUY" title="これから始める人へ" %}
 〉2020.05.24
@@ -148,7 +167,7 @@ wikimedia:
 * コロナ禍でも YouTube とオンラインサロンが「ある」！
 * 「吉本芸人たちよ、立ち上がれ。魚というのはこうやって獲るのだ！」
 
-### 中田敦彦のトーク（幸福洗脳から）
+## 幸福洗脳
 
 {% include youtube.md v="bF4apBBW7ws" title="aaa" %}
 〉2019.12.18
@@ -181,16 +200,22 @@ wikimedia:
 * オンラインサロンって何？って言われている頃にやっているのが楽しい。
 
 
-## NewsPicks
+## 人々をどう治めるかという話
 
-{% include youtube.md v="i40NO4OADGM" title="西野 中田 箕輪" %}
+### 中田流アンチとの向き合い方
+
+{% include youtube.md v="SDxCPPswiaU" title="中田流アンチとの向き合い方" %}
+
+* ネガティブコメントにはパターンがある。
+* １．能力、２．容姿、３．社会的地位、４．大事にしている仲間、  
+  に対して、いろいろなことを言ってくる。
+  * お前の容姿、喋り方、コンテンツなんてこれこれだなぁ。
+  * お前の社会的地位なんてこの程度のモンだよ。
+  * お前の家族、相方、共演者なんてこうこうだなぁ。
+* 確かに腹は立つ。が、「予想を超えた悪口」というのは、  
+  逆にいい意見であったりする。  
+  * この成長機会を得たいがために、９割９分の罵詈雑言を聞き流す。  
+  * 体力のいることなので万人向けではない。
+* 悪口に対して厳しいやり方をすると、人は成長が止まる。
 
 
-## ホリエモン
-
-{% include youtube.md v="6XIHrFlhXf4" title="ホリエモンチャンネル" %}
-
-## 一般の方
-
-{% include youtube.md v="haXNA228EoE" title="カッキー" %}
-〉2020.06.12
