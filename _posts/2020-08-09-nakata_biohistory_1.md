@@ -7,6 +7,11 @@ wikimedia:
   attr: ジュール＝ウジェーヌ・ルヌヴー / Licence Ouverte
 ---
 
+# ジャック・ドーシー
+
+{% include youtube.md v="yyxi2qrr9Ew" title="ジャック・ドーシー" %}
+
+
 # スティーブ・ジョブズ
 
 {% include youtube.md v="wkYHzYSmBy0" title="ジョブズ" %}

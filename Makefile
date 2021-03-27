@@ -11,11 +11,12 @@ edit:
 wiki:
 	cd ../wiki ; pwd ; git pull
 	( cd ../wiki ; sh make.sh ) | tee _data/wiki.tsv
-daily: wiki
-	git add _data/wiki.tsv
-	git add index.md
+daily:
+	git add -v index.md
 	git commit -m "daily update"
 	git push
+off:
+	sudo shutdown -h now
 post:
 	( echo "---" ; echo "layout: default" ; date +"date: %Y-%m-%d %H:%M:%S %z" ; echo "---" ) > .post
 	echo -n "title: " ; mv .post `date +_posts/%Y-%m-%d-\`head -n 1\`.md`
