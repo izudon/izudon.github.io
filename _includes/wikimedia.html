@@ -1,3 +1,4 @@
+
 <div id="front-image">
   <a
     href="{{
@@ -16,6 +17,12 @@
 	    page.wikimedia.px
 	    }}{% else %}640{% endif %}px-{{
 	    page.wikimedia.file | replace: ' ', '_' | url_encode
-	    }}"
-       alt="{{ page.wikimedia.file | xml_escape }}"></a>
+	    }}{% if page.wikimedia.file | split(".").last == "svg" %}{{
+            ".png"
+            }}{% elsif page.wikimedia.file | split(".").last == "png" %}{{
+            ".jpeg"
+            }}{% endif %}"
+       alt="{{ page.wikimedia.file | xml_escape }}"
+       title="{{ page.wikimedia.attr | xml_escape }}"
+       ></a>
 </div>
