@@ -25,6 +25,70 @@ wikimedia:
   そのあたりにきっとあるのだろう。
 
 
+## こんな動画も
+
+### 料理人だったため無年金だった高齢男性
+
+{% include youtube.md v="dys7K9z3Kes" title="" %}
+
+### 治験にまで手を伸ばした女性
+
+{% include youtube.md v="hZ_oLCAcG5k" title="" %}
+
+
+## 山奥ニート
+
+{% include youtube.md v="TtASGE9EciE" title="" %}
+
+* 靴が必要なら店で（既製品を）買う時代が今。でもそれでは途中で  
+  破れたりして長い距離を歩くことができなかったりするから、  
+  自分で草鞋を編むための時間を作れるようにしたいというのが、  
+  共生舎設立者の思いだったそうだ。
+
+### 中田も言及
+
+{% include youtube.md v="eQZ9XtI4ZIA" title="中田敦彦の山奥ニート１" %}
+
+<!--
+{% include youtube.md v="die7CSOt7wc" title="中田敦彦の山奥ニート２" %}
+-->
+
+### 妻の勧めだったらしく第２位に推す
+
+{% include youtube.md v="YVjyEP0r548" title="" %}
+
+
+## Uber Eats
+
+{% include youtube.md v="--Iiw78QVWo" title="Uber Eats" %}
+
+{% include youtube.md v="Y4tV3ihd-CU" title="Uber Eats" %}
+
+
+## McJob（マックジョブ）
+
+{% include youtube.md v="JfnGiLv68u4" title="西野ｘ鴨頭" %}
+
+* 誰でもできる仕事のことをスラングで
+  [McJob](https://en.wikipedia.org/wiki/McJob)
+  （[マックジョブ](https://ja.wikipedia.org/wiki/マックジョブ)）
+  という。
+* 「程度の低い仕事」という意味合いが暗に含まれる一方、  
+  出自も経歴も問われない（＝誰でもできる）仕事だからこそ、  
+  救われる人たちがいる。マクドナルドは何が革命だったかというと、  
+  こういう仕事を世の中に供給し始めたことなんだと、鴨頭さんは力説した。
+
+
+## 福祉の知識
+
+{% include youtube.md v="p6YVwQQqffE" title="" %}
+
+* 冒頭恐ろしいのは、親切心が逆にその人の自由を奪う事例が示されること。
+* 相手からの信用を逆手に巧妙な高齢者いじめは可能なんだなと思った。
+* 「絶妙な身体拘束」「ドールセラピー」「無言介護」
+
+
+
 # Apr. 1st 短歌芸人
 
 {% include youtube.md v="a6lwSoujy88" title="フルーツポンチ村上健志の短歌" %}
