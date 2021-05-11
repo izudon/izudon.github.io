@@ -7,9 +7,57 @@ wikimedia:
 ---
 <!-- {% include amazon.md asin="4834000109" title="いやいやえん" %} -->
 
+
+# May 11th - 事業売却
+
+{% include youtube.md v="WAC0UFn02FA" title="中田敦彦EXIT戦略" %}
+{% include amazon.md asin="B07GBRR14F" title="伸びてるときに売りなさい" %}
+
+* 売却先が事業を殺してしまいかねないなどと心配したりして。
+
+---
+* [連載「断層探訪　米国の足元」記事一覧：朝日新聞デジタル](https://www.asahi.com/rensai/list.html?id=1060)  
+  驚いたことにまだシリーズが続いていた。
+  * [#12 - 薬物中毒の嵐が直撃　都市の視点で見えない「物語」](https://digital.asahi.com/articles/ASP4P4S75P3DUHBI00N.html)  
+    自分たちの物語（**[narrative](https://ejje.weblio.jp/content/narrative)**）を外部の語らせるままにしてきたため、  
+	人々が否定的な自己像を持っている。我々の物語は我々が書くべき。  
+	（ **[narrative](https://ejje.weblio.jp/content/narrative)**
+	物語 語りの部分
+	<= **[narration](https://ejje.weblio.jp/content/narration)**
+	語り ナレーション ）
+  * [#13 - バイデン氏が加速する脱石炭　「助けがなくても生きる」](https://digital.asahi.com/articles/ASP4P4VPMP3FUHBI02L.html)  
+    オバマは実力の伴わない演説家。トランプは粗野だが率直さがある。  
+	どっちに転んでも俺たちは生き残る。
+  * [#14 - 米国の知られざる「炭鉱戦争」　労働者の党立て直すには](https://digital.asahi.com/articles/ASP4P54N2P3GUHBI00H.html)  
+    レーガン政権、冷戦終結、クリントン政権を経て、民主党は、  
+	労働者の党から都市部エリート層やホワイトカラーの党へと変貌。
+
+# May 5th - サンデル約10年ぶりの新刊
+
+{% include youtube.md v="N-HrFRnATTE" title="ANN 徳永有美ｘサンデル" %}
+{% include amazon.md asin="B0922GS8SL" title="実力も運のうち" %}
+
+* ある出来事を人々がどう受け止めるかがは歴史というものを決めるそうで、  
+  個人的にこのコロナ騒動のアメリカでの受け止め方はずっと気になって  
+  いたわけだけれど、なんかようやくその答えらしき本が出たみたい。
+
+
+### たぶん誤読している・・・
+
+{% include youtube.md v="3n8WnZISUbk" title="" %}
+
+{% include youtube.md v="jrU-H7JaeFg" title="" %}
+
+
+## 人新世の資本論
+
+
+
+
+
 # May 4th 憲法
 
-{% include youtube.md v="zqEE6IHf3G4" title="" %}
+{% include youtube.md v="zqEE6IHf3G4" title="ヒロ寺平 憲法" %}
 
 * ヒロ寺平さんが憲法記念日と子供の日の狭間の今日、  
   憲法改正国民投票法案に関する動画をあげておられた。
@@ -27,9 +75,9 @@ wikimedia:
 * コロナ不況下での職探しを取材した朝日放送テレビの動画の冒頭。
 * 求職者に代わって求人先に電話し信頼度の高い落ち着いたトーンで  
   募集内容の詳細について確認する窓口職員の様子が記録されている。
-* 生活の糧を失い追い詰められた求職者に代わって足下を見られないように、  
-  こうして基本的な確認をしていただけるというのは素直にありがたいと、  
-  この動画を見た誰もが納得するにちがいない。
+* 糧を失い追い詰められた状態で足下を見られないように、  
+  こうして基本的な確認をしていただけるというのは純粋にありがたいと、  
+  この動画を見た求職経験者の誰もが納得するにちがいない。
 * 実際ハローワークの窓口職員の皆が皆このような立派な仕事の仕方を  
   されていることはさすがにないと思われるが、  
   やはり大阪は何事も基本的にレベルが高いということだと思う。
