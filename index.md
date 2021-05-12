@@ -11,6 +11,7 @@ wikimedia:
 # May 12th - 外資に買われる！？
 
 {% include youtube.md v="fNx9wDmY1vE" title="中田敦彦 買われる日本 ２" %}
+{% include amazon.md asin="B08XX5L551" title="安いニッポン" %}
 
 「旅行や商品だけではなく土地や企業や人材の外資による爆買いが始まる！！」
 
